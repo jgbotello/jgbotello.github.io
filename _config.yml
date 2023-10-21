@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Jhon G. Botello"
 title_separator          : "-"
 name                     : &name "Jhon G. Botello"
-description              : &description "PhD Student of Computer Science"
+description              : &description "PhD Student in Computer Science"
 url                      : https://jgbotello.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jgbotello/jgbotello.github.io"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/jhongbotello/"
+  linkedin         : "jhongbotello/"
   orcid            : "https://orcid.org/0009-0009-9344-4404"
   pinterest        :
   soundcloud       :
