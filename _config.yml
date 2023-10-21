@@ -84,11 +84,11 @@ author:
   avatar           : "profile.jpg"
   bio              : "PhD Student of Computer Science"
   location         : "Norfolk, VA"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  employer         : Storymodelers-VMASC
+  employeruri      : "https://www.storymodelers.org/"
   googlescholar    : "https://scholar.google.com/citations?user=x6VeC7sAAAAJ&hl=en"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  email            : "jbote001@odu.edu"
+  researchgate     : "https://www.researchgate.net/profile/Jhon-Botello-2"
   uri              :
   bitbucket        :
   codepen          :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/jhongbotello/"
   orcid            : "https://orcid.org/0009-0009-9344-4404"
   pinterest        :
   soundcloud       :
