@@ -13,7 +13,7 @@ name                     : &name "Jhon G. Botello"
 description              : &description "PhD Student of Computer Science"
 url                      : https://jgbotello.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "jgbotello/academicpages.github.io"
+repository               : "jgbotello/jgbotello.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -83,7 +83,7 @@ author:
   name             : "MS. Jhon G. Botello "
   avatar           : "profile.jpg"
   bio              : "PhD Student of Computer Science"
-  Norfolk, VA      : "https://www.google.com/maps/place/Norfolk,%20VA"
+  location         : "https://www.google.com/maps/place/Norfolk,%20VA"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=x6VeC7sAAAAJ&hl=en"
