@@ -7,8 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
+hello there!
 
-I am an Engineer with a Master's in Industrial Engineering. I obtained these degrees at the Universidad del Norte in Barranquilla, Colombia. Recently started a new chapter in my academic life by joining the Web Science and Digital Libraries (WS-DL) research group at Old Dominion University (ODU) as PhD student in Computer Science under the supervision of Dr. Michele Weigle. 
+I am an Engineer with a Master's in Industrial Engineering. I obtained these degrees at the [Universidad del Norte](https://www.uninorte.edu.co/) in Barranquilla, Colombia. 
+
+In Fall 2023 I Joined to Old Dominioun University as PhD student in Computer Science under the supervision of Dr. Michele Weigle. 
 
 My interest in the field of Computer Science (CS) stems from the growing, important, and interesting relevance of technology in our society. Computer Science plays a crucial role in process automation, decision-making, and complex problem-solving. I believe that by combining my skills in Industrial Engineering, focused on data science and analysis, multivariate statistics, modeling, and simulation, with a Ph.D. in Computer Science, I will be able to contribute to the development of solutions to challenges of great interest in society.
 
@@ -26,3 +29,43 @@ Overall, I am very happy to have started this exciting adventure and to join the
 "All our dreams can come true; if we have the courage to pursue them" Walt Disney.
 
 Jhon G. Botello
+
+
+**Research Interests:**
+
+## Graduate Research Assistant
+
+## Teaching (Fall 2023)
+
+## Research
+
+I'm a member of the ODU Web Science and Digital Libraries (WS-DL) Research Group.  
+
+<a href="https://oduwsdl.github.io/" target="_blank" class="btn btn--mcw"><i class="fas fa-fw fa-link"></i><span> WS-DL Webpage</span></a>
+<a href="https://twitter.com/WebSciDL" target="_blank" class="btn btn--mcw"><i class="fab fa-twitter" style="color: {{ page.twitter-color }}"></i><span> WS-DL Twitter</span></a>
+<a href="https://ws-dl.blogspot.com/" target="_blank" class="btn btn--mcw"><i class="fab fa-blogger" style="color: {{ page.blogger-color }}"></i><span> WS-DL Blog</span></a>
+<a href="https://github.com/oduwsdl" target="_blank" class="btn btn--mcw"><i class="fab fa-fw fa-github" style="color: {{ page.github-color }}"></i><span> WS-DL GitHub</span></a>
+{: style="text-align: center;"}
+
+{% for post in site.publications reversed %}
+  {% if post.type == "recent" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+## Bio
+
+Dr. Michele C. Weigle is a Professor of Computer Science at Old Dominion University. Her research interests include web science, social media, web archiving, and information visualization. She has published over 115 articles in peer-reviewed conferences and journals and has served as PI or Co-PI on external research grants totaling $6M from a wide range of funders, including the National Science Foundation, the National Endowment for the Humanities, the Institute of Museum and Library Services, and the Andrew W. Mellon Foundation. She currently serves on the editorial boards of the *Journal of the Association for Information Science and Technology* (JASIST) and the *International Journal on Digital Libraries* (IJDL). Dr. Weigle received her PhD in computer science from the University of North Carolina in 2003.
+
+### Academic Timeline
+
+* July 2018 - present, Professor, [Computer Science](https://www.cs.odu.edu/), [Old Dominion University](https://www.odu.edu/)
+* July 2012 - July 2018, Associate Professor, Computer Science, Old Dominion University
+* July 2006 - July 2012, Assistant Professor, Computer Science, Old Dominion University
+* July 2004 - July 2006, Assistant Professor, [Computer Science](http://www.clemson.edu/ces/departments/computing/), [Clemson University](http://www.clemson.edu)
+* August 2003 - June 2004, Visiting Assistant Professor, Computer Science, University of North Carolina
+* August 2003, Ph.D., [Computer Science](https://www.cs.unc.edu), [University of North Carolina](https://www.unc.edu)
+* May 1998, M.S., Computer Science, University of North Carolina
+* May 1996, B.S., [Computer Science](http://www.ulm.edu/cba/computerscience/index.html) ([Honors Program](http://www.ulm.edu/honors)), Northeast Louisiana University (now [University of Louisiana at Monroe](http://www.ulm.edu))
+  
+<iframe width="300" src="https://www.youtube.com/embed/FVIg42xHlvQ" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
