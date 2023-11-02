@@ -7,18 +7,15 @@ redirect_from:
   - /about/
   - /about.html
 ---
-hello there!
+I am an Engineer with a Master's in Industrial Engineering. I obtained these degrees at the [Universidad del Norte](https://www.uninorte.edu.co/) in Barranquilla, Colombia. My  master’s degree research in industrial engineering was recognized as highly distinguished by the university.  It was part of a larger international, multidisciplinary research project linked to faculty at Old Dominion university (ODU). 
 
-I am an Engineer with a Master's in Industrial Engineering. I obtained these degrees at the [Universidad del Norte](https://www.uninorte.edu.co/) in Barranquilla, Colombia. 
+In Fall 2023 I Joined to ODU as PhD student in Computer Science under the supervision of Dr. Michele Weigle.
 
-In Fall 2023 I Joined to Old Dominioun University as PhD student in Computer Science under the supervision of Dr. Michele Weigle. 
+To provide an overview of my research over the past few years, I have been exploring how communities respond to the arrival of refugees and migrants. This collaborative work has been conducted alongside fellow researchers and faculty members at the Storymodelers Lab. Our approach encompasses the utilization of survey research techniques, as well as the implementation of advanced tools such as machine learning (ML) and natural language processing (NLP) models. For a deeper insight into my educational background and professional journey, I invite you to explore my [bio](#bio).
 
-My interest in the field of Computer Science (CS) stems from the growing, important, and interesting relevance of technology in our society. Computer Science plays a crucial role in process automation, decision-making, and complex problem-solving. I believe that by combining my skills in Industrial Engineering, focused on data science and analysis, multivariate statistics, modeling, and simulation, with a Ph.D. in Computer Science, I will be able to contribute to the development of solutions to challenges of great interest in society.
+**Research Interests:** Artificial Intelligence, Data Analysis, Data Science, NLP, Multivariate Statistical Analysis, Web Development, Modeling and Simulation.
 
-For my first semester as an ODU student, I am taking the courses shown below.
-- CS 625 Data Visualization (Dr. Michele Weigle)
-- CS 898 Dissertation Research (Dr. Michele Weigle)
-
+## Graduate Research Assistant
 In addition to joining ODU, I have been given the privilege of serving as a Graduate Research Assistant in the Storymodelers research lab, linked to the Virginia Modeling Analysis and Simulation Center (VMASC), with whom I have been collaborating for approximately two years. This experience has been full of valuable learnings, interesting challenges, and enriching opportunities both in research and professionally.
 Before my arrival in the United States, I was working with research through surveys applied to analyze the capacity of support that Colombia offers to migrants from Venezuela. Additionally, I have been involved in the development of an application to automate the process.
 
@@ -26,17 +23,11 @@ Two weeks after arriving in Norfolk I had the opportunity to travel to Pittsburg
 
 Overall, I am very happy to have started this exciting adventure and to join the WS-DL family. My motivation is high to continue growing academically, learning from my colleagues and professors, and contributing to society through research. I am grateful to all the people I have met so far for the warm welcome they have given me. 
 
-"All our dreams can come true; if we have the courage to pursue them" Walt Disney.
-
-Jhon G. Botello
-
-
-**Research Interests:**
-
-## Graduate Research Assistant
-
-## Teaching (Fall 2023)
-
+## Courses (Fall 2023)
+For my first semester as an ODU student, I am taking the courses shown below.
+- CS 625 Data Visualization (Dr. Michele Weigle)
+- CS 898 Dissertation Research (Dr. Michele Weigle)
+  
 ## Research
 
 I'm a member of the ODU Web Science and Digital Libraries (WS-DL) Research Group.  
@@ -55,7 +46,7 @@ I'm a member of the ODU Web Science and Digital Libraries (WS-DL) Research Group
 
 ## Bio
 
-Dr. Michele C. Weigle is a Professor of Computer Science at Old Dominion University. Her research interests include web science, social media, web archiving, and information visualization. She has published over 115 articles in peer-reviewed conferences and journals and has served as PI or Co-PI on external research grants totaling $6M from a wide range of funders, including the National Science Foundation, the National Endowment for the Humanities, the Institute of Museum and Library Services, and the Andrew W. Mellon Foundation. She currently serves on the editorial boards of the *Journal of the Association for Information Science and Technology* (JASIST) and the *International Journal on Digital Libraries* (IJDL). Dr. Weigle received her PhD in computer science from the University of North Carolina in 2003.
+MS. Jhon G. Botello is a PhD Student in Computer Science at Old Dominion University. His research interests include web science, social media, web archiving, and information visualization. She has published over 115 articles in peer-reviewed conferences and journals and has served as PI or Co-PI on external research grants totaling $6M from a wide range of funders, including the National Science Foundation, the National Endowment for the Humanities, the Institute of Museum and Library Services, and the Andrew W. Mellon Foundation. She currently serves on the editorial boards of the *Journal of the Association for Information Science and Technology* (JASIST) and the *International Journal on Digital Libraries* (IJDL). Dr. Weigle received her PhD in computer science from the University of North Carolina in 2003.
 
 ### Academic Timeline
 
@@ -69,3 +60,7 @@ Dr. Michele C. Weigle is a Professor of Computer Science at Old Dominion Univers
 * May 1996, B.S., [Computer Science](http://www.ulm.edu/cba/computerscience/index.html) ([Honors Program](http://www.ulm.edu/honors)), Northeast Louisiana University (now [University of Louisiana at Monroe](http://www.ulm.edu))
   
 <iframe width="300" src="https://www.youtube.com/embed/FVIg42xHlvQ" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+**"All our dreams can come true; if we have the courage to pursue them" Walt Disney.**
