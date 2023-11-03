@@ -18,8 +18,6 @@ To provide an overview of my research over the past few years, I have been explo
 ## Graduate Research Assistant
 In addition to joining ODU, I have been given the privilege of serving as a Graduate Research Assistant in the [Storymodelers research lab](https://www.storymodelers.org/), linked to the [Virginia Modeling Analysis and Simulation Center (VMASC)](https://vmasc.org/), with whom I have been collaborating for approximately two years. This experience has been full of valuable learnings, interesting challenges, and enriching opportunities both in research and professionally. I also have the honor of contributing as a Graduate Research Assistant in the [WS-DL (Web Science and Digital Libraries) research lab](https://oduwsdl.github.io/) within the Department of Computer Science.
 
-install.packages("BayesPostEst")
-
 ## Courses (Fall 2023)
 For my first semester as an ODU student, I am taking the courses shown below.
 - [CS 625 Data Visualization](https://catalog.odu.edu/courses/cs/#graduatecoursestext:~:text=CS%20625%C2%A0%C2%A0Data%20Visualization%C2%A0%C2%A0(3%20Credit%20Hours)%C2%A0) (Dr. Michele Weigle)
@@ -50,9 +48,9 @@ I'm a member of the ODU Web Science and Digital Libraries (WS-DL) Research Group
 
 * August 2023 - Present, Graduate Research Assistant, [Storymodelers Lab](https://www.storymodelers.org/), [Old Dominion University](https://www.odu.edu/)
 * January 2023 - August 22023, Assistant Professor, [Industrial Engineering](https://pca.edu.co/wp/ingenieria-industrial/), [Politecnico de la Costa Atlantica](https://pca.edu.co/wp/)
-* January 2022 - September 2023, Graduate Research Assistant, [Ingenieria Industrial](https://www.uninorte.edu.co/web/ingenieria-industrial), [Universidad del Norte](https://www.uninorte.edu.co/)
+* January 2022 - September 2023, Graduate Research Assistant, [Industrial Engineering](https://www.uninorte.edu.co/web/ingenieria-industrial), [Universidad del Norte](https://www.uninorte.edu.co/)
 * August 2023 - Present, Ph.D., [Computer Science](https://www.odu.edu/computer-science/academics/graduate/phd), [Old Dominion University](https://www.odu.edu/)
-* September 2023, M.S., [Industrial Engineering](https://www.uninorte.edu.co/web/ingenieria-industrial), Universidad del Norte
+* September 2023, M.S., [Industrial Engineering](https://www.uninorte.edu.co/web/ingenieria-industrial), [Universidad del Norte](https://www.uninorte.edu.co/)
 * September 2022, B.S., [Industrial Engineering](https://www.uninorte.edu.co/web/ingenieria-industrial), [Universidad del Norte](https://www.uninorte.edu.co/).
   
 **"All our dreams can come true; if we have the courage to pursue them" Walt Disney.**
