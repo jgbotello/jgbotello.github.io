@@ -18,6 +18,8 @@ To provide an overview of my research over the past few years, I have been explo
 ## Graduate Research Assistant
 In addition to joining ODU, I have been given the privilege of serving as a Graduate Research Assistant in the [Storymodelers research lab](https://www.storymodelers.org/), linked to the [Virginia Modeling Analysis and Simulation Center (VMASC)](https://vmasc.org/), with whom I have been collaborating for approximately two years. This experience has been full of valuable learnings, interesting challenges, and enriching opportunities both in research and professionally. I also have the honor of contributing as a Graduate Research Assistant in the [WS-DL (Web Science and Digital Libraries) research lab](https://oduwsdl.github.io/) within the Department of Computer Science.
 
+install.packages("BayesPostEst")
+
 ## Courses (Fall 2023)
 For my first semester as an ODU student, I am taking the courses shown below.
 - [CS 625 Data Visualization](https://catalog.odu.edu/courses/cs/#graduatecoursestext:~:text=CS%20625%C2%A0%C2%A0Data%20Visualization%C2%A0%C2%A0(3%20Credit%20Hours)%C2%A0) (Dr. Michele Weigle)
