@@ -11,7 +11,7 @@ I am an Engineer with a Master's in Industrial Engineering. I obtained these deg
 
 In Fall 2023 I Joined to ODU as PhD student in [Computer Science](https://www.odu.edu/computer-science/academics/graduate/phd) under the supervision of [Dr. Michele Weigle](https://weiglemc.github.io/).
 
-To provide an overview of my research over the past few years, I have been exploring how communities respond to the arrival of refugees and migrants. This collaborative work has been conducted alongside fellow researchers and faculty members at the [Storymodelers Lab](https://www.storymodelers.org/). Our approach encompasses the utilization of survey research techniques, as well as the implementation of advanced tools such as machine learning (ML) and natural language processing (NLP) models. For a deeper insight into my educational background and professional journey, I invite you to explore my [bio](#bio).
+To provide an overview of my research over the past few years, I have been exploring how communities respond to the arrival of refugees and migrants. This collaborative work has been conducted alongside fellow researchers and faculty members at the [Storymodelers Lab](https://www.storymodelers.org/). Our approach encompasses the utilization of survey research techniques, as well as the implementation of advanced tools such as machine learning (ML) and natural language processing (NLP) models. For a deeper insight into my educational background and professional journey, I invite you to explore my [Bio](#bio).
 
 **Research Interests:** Artificial Intelligence, Data Analysis, Data Science, NLP, Multivariate Statistical Analysis, Web Development, Modeling and Simulation.
 
@@ -42,21 +42,15 @@ I'm a member of the ODU Web Science and Digital Libraries (WS-DL) Research Group
 
 ## Bio
 
-MS. Jhon G. Botello is a PhD Student in Computer Science at Old Dominion University. His research interests include web science, social media, web archiving, and information visualization. She has published over 115 articles in peer-reviewed conferences and journals and has served as PI or Co-PI on external research grants totaling $6M from a wide range of funders, including the National Science Foundation, the National Endowment for the Humanities, the Institute of Museum and Library Services, and the Andrew W. Mellon Foundation. She currently serves on the editorial boards of the *Journal of the Association for Information Science and Technology* (JASIST) and the *International Journal on Digital Libraries* (IJDL). Dr. Weigle received her PhD in computer science from the University of North Carolina in 2003.
+Jhon G. Botello is currently a PhD Student in computer Science at old dominion university and graduate research assistant in the Storymodelers lab. His research primarily focuses on social studies pertaining to migration, where he skillfully applies survey research and computational approaches. During his master's studies, Jhon received prestigious funding through an international collaboration between Old Dominion University's Storymodelers Lab and the Office of Naval Research, under the Minerva Research Initiative. This initiative not only shaped his academic journey but also allowed him to contribute significantly to the research field. His diverse research interests encompass a broad spectrum, including Machine Learning, Data Analysis, Social Science, Natural Language Processing (NLP), and the realm of modeling and simulation. Prior to pursuing his PhD, Jhon G. Botello successfully obtained a Bachellor and Master's degree in Industrial Engineering from Universidad del Norte, Colombia, in 2023. His undergraduate studies were financed by the Government of Colombia under the Ser Pilo Paga 3 initiative.
 
 ### Academic Timeline
 
-* July 2018 - present, Professor, [Computer Science](https://www.cs.odu.edu/), [Old Dominion University](https://www.odu.edu/)
-* July 2012 - July 2018, Associate Professor, Computer Science, Old Dominion University
-* July 2006 - July 2012, Assistant Professor, Computer Science, Old Dominion University
-* July 2004 - July 2006, Assistant Professor, [Computer Science](http://www.clemson.edu/ces/departments/computing/), [Clemson University](http://www.clemson.edu)
-* August 2003 - June 2004, Visiting Assistant Professor, Computer Science, University of North Carolina
-* August 2003, Ph.D., [Computer Science](https://www.cs.unc.edu), [University of North Carolina](https://www.unc.edu)
-* May 1998, M.S., Computer Science, University of North Carolina
-* May 1996, B.S., [Computer Science](http://www.ulm.edu/cba/computerscience/index.html) ([Honors Program](http://www.ulm.edu/honors)), Northeast Louisiana University (now [University of Louisiana at Monroe](http://www.ulm.edu))
+* August 2023 - present, Graduate Research Assistant, [Storymodelers Lab](https://www.storymodelers.org/), [Old Dominion University](https://www.odu.edu/)
+* January 2023 - August 22023, Assistant Professor, [Industrial Engineering](https://pca.edu.co/wp/ingenieria-industrial/), [Politecnico de la Costa Atlantica](https://pca.edu.co/wp/)
+* January 2022 - September 2023, Graduate Research Assistant, Ingenieria Industrial, [Universidad del Norte](https://www.uninorte.edu.co/)
+* August 2023 - Present, Ph.D., [Computer Science](https://www.odu.edu/computer-science/academics/graduate/phd), [Old Dominion University](https://www.odu.edu/)
+* September 2023, M.S., Industrial Engineering, Universidad del Norte
+* September 2022, B.S., [Industrial Engineering](https://www.uninorte.edu.co/web/ingenieria-industrial), [Universidad del Norte](https://www.uninorte.edu.co/).
   
-<iframe width="300" src="https://www.youtube.com/embed/FVIg42xHlvQ" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
 **"All our dreams can come true; if we have the courage to pursue them" Walt Disney.**
