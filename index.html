@@ -1,143 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="description" content="Página personal de Investigador" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tu Nombre | Investigador</title>
-  <link rel="stylesheet" href="styles.css" />
-  <!-- Aquí podrías enlazar fuentes externas de Google Fonts, por ejemplo: -->
-  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap"> -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Encabezado / Barra de navegación -->
+
+  <!-- Navigation Bar -->
   <header class="header">
-    <div class="header__logo">
-      <!-- Un simple texto o un logo -->
-      <a href="#">TU LOGO</a>
+    <div class="logo">
+      <a href="index.html">Tu Logo</a>
     </div>
-    <nav class="header__nav">
+    <nav class="nav">
       <ul>
-        <li><a href="#about">Sobre mí</a></li>
-        <li><a href="#research">Investigación</a></li>
-        <li><a href="#projects">Proyectos</a></li>
-        <li><a href="#publications">Publicaciones</a></li>
-        <li><a href="#contact">Contacto</a></li>
+        <li><a href="about.html" aria-label="About">About</a></li>
+        <li><a href="projects.html" aria-label="Projects">Projects</a></li>
+        <li><a href="blog.html" aria-label="Blog">Blog</a></li>
+        <li><a href="resume.html" aria-label="Resume">Resume</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Sección Hero / Presentación -->
+  <!-- Hero /Welcome -->
   <section class="hero">
-    <div class="hero__content">
-      <h1>Hola, soy <span class="highlight">Tu Nombre</span></h1>
-      <p>
-        Investigador en [tu área] con interés en [tecnologías, campos de estudio, etc.].
-      </p>
-      <a class="btn" href="#about">Conóceme más</a>
-    </div>
+    <h1>Hola, soy <span>Tu Nombre</span></h1>
+    <p>Investigador en [tu área], trabajando en [tu especialidad].</p>
+    <a class="btn" href="about.html">Conóceme más</a>
   </section>
 
-  <!-- Sobre mí -->
-  <section id="about" class="about section">
-    <div class="section__title">
-      <h2>Sobre mí</h2>
-    </div>
-    <div class="section__content">
-      <div class="about__text">
-        <p>
-          Aquí puedes describir brevemente tu trayectoria académica y profesional, 
-          tus intereses de investigación y cualquier otro detalle que consideres relevante.
-        </p>
+  <!-- Últimos Posts del Blog -->
+  <section class="blog-preview">
+    <h2>Últimos Posts</h2>
+    <div class="blog-container">
+      <div class="blog-card">
+        <img src="images/blog1.jpg" alt="Imagen del Post 1">
+        <h3><a href="blog/post1.html" aria-label="Título del Post 1">Título del Post 1</a></h3>
+        <p>Resumen breve del post...</p>
       </div>
-      <div class="about__photo">
-        <!-- Puedes colocar tu foto -->
-        <img src="https://via.placeholder.com/300" alt="Foto de perfil" />
+      <div class="blog-card">
+        <img src="images/blog2.jpg" alt="Imagen del Post 2">
+        <h3><a href="blog/post2.html" aria-label="Título del Post 2">Título del Post 2</a></h3>
+        <p>Resumen breve del post...</p>
       </div>
-    </div>
-  </section>
-
-  <!-- Sección de Investigación -->
-  <section id="research" class="research section">
-    <div class="section__title">
-      <h2>Investigación</h2>
-    </div>
-    <div class="section__content">
-      <p>
-        Describe los temas o áreas principales de investigación en las que has trabajado 
-        o estás trabajando actualmente. Habla de tus líneas de interés y proyectos actuales.
-      </p>
-    </div>
-  </section>
-
-  <!-- Proyectos -->
-  <section id="projects" class="projects section">
-    <div class="section__title">
-      <h2>Proyectos Destacados</h2>
-    </div>
-    <div class="section__content cards-container">
-      <!-- Ejemplo de tarjeta de proyecto -->
-      <div class="card">
-        <h3>Proyecto 1</h3>
-        <p>
-          Breve descripción del proyecto. Destaca resultados, objetivos o 
-          cualquier logro interesante.
-        </p>
-        <a href="#" class="card__link">Ver más</a>
-      </div>
-      <div class="card">
-        <h3>Proyecto 2</h3>
-        <p>
-          Breve descripción del proyecto. Destaca resultados, objetivos 
-          o cualquier logro interesante.
-        </p>
-        <a href="#" class="card__link">Ver más</a>
-      </div>
-      <!-- Agrega más tarjetas según sea necesario -->
-    </div>
-  </section>
-
-  <!-- Publicaciones -->
-  <section id="publications" class="publications section">
-    <div class="section__title">
-      <h2>Publicaciones</h2>
-    </div>
-    <div class="section__content">
-      <ul class="publication-list">
-        <li>
-          <strong>Título de la publicación</strong> <br/>
-          <em>Revista/Conferencia, Año</em>
-        </li>
-        <li>
-          <strong>Título de la publicación</strong> <br/>
-          <em>Revista/Conferencia, Año</em>
-        </li>
-        <!-- Agrega todas tus publicaciones -->
-      </ul>
-    </div>
-  </section>
-
-  <!-- Contacto -->
-  <section id="contact" class="contact section">
-    <div class="section__title">
-      <h2>Contacto</h2>
-    </div>
-    <div class="section__content contact__content">
-      <p>
-        Puedes contactarme a través de:
-      </p>
-      <ul>
-        <li>Email: <a href="mailto:correo@ejemplo.com">correo@ejemplo.com</a></li>
-        <li>LinkedIn: <a href="#" target="_blank">Mi LinkedIn</a></li>
-        <li>Twitter: <a href="#" target="_blank">@MiUsuario</a></li>
-        <!-- Otras redes o métodos de contacto -->
-      </ul>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="footer">
-    <p>© 2025 Tu Nombre. Todos los derechos reservados.</p>
+  <footer>
+    <p>© 2025 Tu Nombre | Todos los derechos reservados.</p>
   </footer>
+
 </body>
 </html>
