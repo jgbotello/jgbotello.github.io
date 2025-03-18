@@ -42,7 +42,7 @@ body {
 }
 
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 5rem;
 }
 
 .hero span {
@@ -95,8 +95,8 @@ a:focus, .btn:focus {
 }
 
 .profile-pic {
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 20px;
