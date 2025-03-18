@@ -38,36 +38,50 @@ body {
   color: #007bff;
 }
 
-/* Profile Section */
+/* Ensure profile section has a structured container */
+.profile-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centers the content */
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px; /* Increased space to accommodate the larger image */
+}
+
 .profile {
   text-align: center;
-  position: relative;
   background: linear-gradient(to right, #f8f9fa, #ffffff);
-  padding: 80px 20px 50px; /* More space on top for the image */
-}
-
-.profile-content {
+  width: 80%; /* Adjust width */
+  max-width: 900px; /* Prevents excessive stretching */
+  padding: 180px 20px 50px; /* Increased top padding to fit the larger image */
   position: relative;
-  z-index: 1;
-  padding-top: 100px; /* Prevents overlap with the image */
+  border-radius: 10px; /* Optional: soft edges */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Optional: add a light shadow */
 }
 
+/* Adjust Profile Picture */
 .profile-pic {
-  width: 150px; /* Adjust size */
-  height: 150px;
+  width: 300px; /* Adjusted for larger display */
+  height: 300px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
-  margin: 0 auto; /* Center horizontally */
   position: absolute;
-  top: -75px; /* Move up */
+  top: -150px; /* Moves it further up so it's fully above the content */
   left: 50%;
-  transform: translateX(-50%); /* Perfect centering */
-  z-index: 2; /* Ensure it stays above text */
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+/* Adjust Text and Content */
+.profile-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 150px; /* Creates space so the text isn't too close to the image */
 }
 
 .profile h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: center;
 }
 
