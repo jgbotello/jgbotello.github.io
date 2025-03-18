@@ -39,30 +39,31 @@ body {
 }
 
 /* Profile Section */
-.Profile {
+.profile {
   text-align: center;
   position: relative;
-  padding: 50px 20px;
   background: linear-gradient(to right, #f8f9fa, #ffffff);
+  padding: 80px 20px 50px; /* More space on top for the image */
 }
 
 .profile-content {
   position: relative;
   z-index: 1;
-  padding-top: 80px; /* Ajusta el espacio para evitar superposición */
+  padding-top: 100px; /* Prevents overlap with the image */
 }
 
 .profile-pic {
-  width: 200px;
-  height: 200px;
+  width: 150px; /* Adjust size */
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
-  margin: -100px auto 15px;
+  margin: 0 auto; /* Center horizontally */
   position: absolute;
+  top: -75px; /* Move up */
   left: 50%;
-  transform: translateX(-50%);
-  z-index: 2; 
+  transform: translateX(-50%); /* Perfect centering */
+  z-index: 2; /* Ensure it stays above text */
 }
 
 .profile h1 {
