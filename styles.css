@@ -24,6 +24,7 @@ body {
 .nav ul {
   list-style: none;
   display: flex;
+  font-size: 1.2rem;
   gap: 20px;
 }
 
@@ -39,13 +40,19 @@ body {
 }
 
 .logo a {
-  font-size: 1.3rem; /* Slightly larger font size */
+  font-size: 1.5rem; /* Slightly larger font size */
   font-weight: bold;
   font-family: "Poppins", sans-serif; /* Modern font */
   color: #333; /* Nice blue shade */
   text-decoration: none; /* Remove default underline */
   transition: all 0.3s ease-in-out;
+  display: flex;
   position: relative;
+}
+
+.logo-img {
+  width: 30px; /* Adjust size as needed */
+  height: auto;
 }
 
 /* Custom underline effect */
@@ -87,8 +94,8 @@ body {
   text-align: center;
   background: linear-gradient(to right, #f8f9fa, #ffffff);
   width: 80%;
-  max-width: 900px;
-  padding: 180px 20px 50px;
+  max-width: 1200px;
+  padding: 190px 20px 50px;
   position: relative;
   border-radius: 20px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* add a light shadow */
@@ -111,12 +118,13 @@ body {
 .profile-content {
   position: relative;
   z-index: 1;
-  padding-top: 150px; /* Creates space so the text isn't too close to the image */
+  padding-top: 120px;
 }
 
 .profile h1 {
   font-size: 3rem;
   text-align: center;
+  
 }
 
 .profile span {
@@ -126,13 +134,15 @@ body {
 .profile p {
   font-size: 1.2rem;
   margin: 20px 0;
+  text-align: center;
 }
 
 .social-icons {
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-top: -40px; /* Moves icons closer to the top */
+  margin-top: -40px;
+  margin-bottom: -10px; /* Moves icons closer to the top */
   padding: 0; /* Remove any extra padding */
 }
 
