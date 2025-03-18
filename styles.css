@@ -1,20 +1,24 @@
-/* Estilos generales */
+/* General Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background: #f8f9fa;
   color: #333;
+  line-height: 1.6;
 }
 
-/* Navegación */
+/* Navigation */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
   background: white;
-  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .nav ul {
@@ -27,6 +31,11 @@ body {
   text-decoration: none;
   color: #333;
   font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #007bff;
 }
 
 /* Hero Section */
@@ -49,12 +58,17 @@ body {
   margin: 20px 0;
 }
 
-.btn {
+.hero .btn {
   padding: 10px 20px;
   background: #007bff;
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.hero .btn:hover {
+  background: #0056b3;
 }
 
 /* Blog Preview */
@@ -65,13 +79,16 @@ body {
 .blog-container {
   display: flex;
   gap: 1.5rem;
+  flex-wrap: wrap;
 }
 
 .blog-card {
   background: white;
   padding: 1rem;
   border-radius: 8px;
-  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(50% - 1.5rem);
+  max-width: calc(50% - 1.5rem);
 }
 
 .blog-card img {
@@ -91,5 +108,23 @@ body {
 footer {
   text-align: center;
   padding: 1rem;
-  background: #ddd;
+  background: #333;
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .blog-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
