@@ -38,36 +38,35 @@ body {
   color: #007bff;
 }
 
-/* Ensure profile section has a structured container */
+/* Profile section */
 .profile-wrapper {
   width: 100%;
   display: flex;
-  justify-content: center; /* Centers the content */
+  justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 100px; /* Increased space to accommodate the larger image */
+  padding-top: 50px; 
 }
 
 .profile {
   text-align: center;
   background: linear-gradient(to right, #f8f9fa, #ffffff);
-  width: 80%; /* Adjust width */
-  max-width: 900px; /* Prevents excessive stretching */
-  padding: 180px 20px 50px; /* Increased top padding to fit the larger image */
+  width: 80%;
+  max-width: 900px;
+  padding: 180px 20px 50px;
   position: relative;
-  border-radius: 10px; /* Optional: soft edges */
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Optional: add a light shadow */
+  border-radius: 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* add a light shadow */
 }
 
-/* Adjust Profile Picture */
 .profile-pic {
-  width: 300px; /* Adjusted for larger display */
+  width: 300px;
   height: 300px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
   position: absolute;
-  top: -150px; /* Moves it further up so it's fully above the content */
+  top: -150px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
@@ -94,73 +93,51 @@ body {
   margin: 20px 0;
 }
 
-.profile .btn {
-  padding: 10px 20px;
-  background: #007bff;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background 0.3s ease;
-}
-
-.profile .btn:hover {
-  background: #0056b3;
-}
-
-/* Blog Preview */
-.blog-preview {
-  padding: 2rem;
-}
-
-.blog-container {
+.social-icons {
   display: flex;
-  gap: 1.5rem;
-  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: -40px; /* Moves icons closer to the top */
+  padding: 0; /* Remove any extra padding */
 }
 
-.blog-card {
-  background: white;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-  flex: 1 1 calc(50% - 1.5rem);
-  max-width: calc(50% - 1.5rem);
+.social-icons a {
+  font-size: 35px;
+  color: #333; 
+  transition: color 0.3s ease-in-out;
+  text-decoration: none;
 }
 
-.blog-card img {
-  width: 100%;
-  border-radius: 5px;
+.social-icons a:hover {
+  color: #0073b1; /* hover (mouse over icon) */
 }
 
-.blog-card h3 {
-  margin: 1rem 0 0.5rem;
-}
-
-.blog-card p {
-  margin: 0;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #333;
+.more-about-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #007bff, #0056b3); /* Gradient blue */
   color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 14px 28px;
+  border-radius: 50px; /* Rounded button */
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3); /* Soft shadow */
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .hero h1 {
-    font-size: 2rem;
-  }
+/* Hover effect */
+.more-about-btn:hover {
+  background: linear-gradient(135deg, #0056b3, #003f80); /* Darker blue on hover */
+  box-shadow: 0 6px 15px rgba(0, 123, 255, 0.5); /* More glow effect */
+  transform: translateY(-2px); /* Slight lift effect */
+}
 
-  .blog-card {
-    flex: 1 1 100%;
-    max-width: 100%;
-  }
-
-  .nav ul {
-    flex-direction: column;
-    gap: 10px;
-  }
+/* Click effect */
+.more-about-btn:active {
+  transform: scale(0.98);
+  box-shadow: 0 3px 8px rgba(0, 123, 255, 0.3);
 }
