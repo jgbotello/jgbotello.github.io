@@ -8,7 +8,7 @@ body {
   line-height: 1.6;
 }
 
-/* Navigation */
+/* Navigation Bar -----------------------------------------------*/
 .header {
   display: flex;
   justify-content: space-between;
@@ -70,7 +70,10 @@ body {
   color: #0056b3; /* Darker blue on hover */
 }
 
-/* Profile section */
+/*--------------------------------------------------------------*/
+
+
+/* Profile section ---------------------------------------------*/
 .profile-wrapper {
   width: 100%;
   display: flex;
@@ -173,3 +176,5 @@ body {
   transform: scale(0.98);
   box-shadow: 0 3px 8px rgba(0, 123, 255, 0.3);
 }
+
+/* ----------------------------------------------------------*/
