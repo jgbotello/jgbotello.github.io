@@ -38,6 +38,38 @@ body {
   color: #007bff;
 }
 
+.logo a {
+  font-size: 1.3rem; /* Slightly larger font size */
+  font-weight: bold;
+  font-family: "Poppins", sans-serif; /* Modern font */
+  color: #333; /* Nice blue shade */
+  text-decoration: none; /* Remove default underline */
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+/* Custom underline effect */
+.logo a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #007bff;
+  transition: width 0.3s ease-in-out;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+}
+
+.logo a:hover::after {
+  width: 100%;
+}
+
+/* Hover effect */
+.logo a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
 /* Profile section */
 .profile-wrapper {
   width: 100%;
