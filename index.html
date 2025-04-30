@@ -5,16 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Jhon G. Botello - PhD student in Computer Science, passionate about AI research, security, and societal implications of technology.">
   <title>Jhon G. Botello</title>
-  <link rel="shortcut icon" type="image/x-icon" href="icons/bird_airplane.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="icons/plane.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
+
+<!-- navigation bar and presentation card -->
 <body>
   <header class="header">
     <div class="logo">
       <a href="index.html">
-        <img src="icons/bird_airplane.ico" alt="Logo" class="logo-img">
+        <img src="icons/plane.ico" alt="Logo" class="logo-img">
         Jhon G. Botello
       </a>
     </div>
@@ -22,6 +25,7 @@
       <ul>
         <li><a href="about.html" aria-label="About">About</a></li>
         <li><a href="projects.html" aria-label="Projects">Projects</a></li>
+        <li><a href="publications.html" aria-label="Publications">Publications</a></li>
         <li><a href="blogs.html" aria-label="Blog">Blogs</a></li>
         <li><a href="resume.html" aria-label="Resume">Resume</a></li>
       </ul>
@@ -31,40 +35,46 @@
   <!-- profile section -->
   <div class="profile-wrapper">
     <section class="profile">
-        <div class="profile-content">
-            <img src="images/profile_jhon.jpg" alt="Jhon G. Botello" class="profile-pic">
-            <h1>Hey there! <span>I'm Jhon</span></h1>
-            <div class="social-icons">
-              <a href="https://github.com/jgbotello" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
-              <a href="https://x.com/Jhon_gbm12" aria-label="Twitter Profile"><i class="fa-brands fa-x-twitter"></i></a>
-              <a href="https://www.linkedin.com/in/jhongbotello/" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
-              <a href="https://scholar.google.com/citations?user=x6VeC7sAAAAJ&hl=en" aria-label="Google Scholar Profile"><i class="ai ai-google-scholar-square"></i></a>
-            </div>
-            <p>PhD student in Computer Science - Enginner - Graduate Researcher</p>
-            <a href="about.html" class="more-about-btn">More about me</a>
+      <div class="profile-content">
+        <img src="images/profile_jhon2.jpg" alt="Jhon G. Botello" class="profile-pic">
+        <h1>Hey there! <span>I'm Jhon</span></h1>
+        <div class="social-icons">
+          <a href="https://github.com/jgbotello" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+          <a href="https://x.com/Jhon_gbm12" aria-label="Twitter Profile"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/jhongbotello/" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+          <a href="https://scholar.google.com/citations?user=x6VeC7sAAAAJ&hl=en" aria-label="Google Scholar Profile"><i class="ai ai-google-scholar-square"></i></a>
         </div>
+        <p>Ph.D. student in Computer Science – M.Sc. in Industrial Engineering – Graduate Researcher</p>
+        <a href="about.html" class="more-about-btn">More about me</a>
+      </div>
+  
+      <section class="profile-publications">
+        <div class="section-divider"></div>
+        <h2>Latest Publications</h2>
+        <div class="publications-container">
+          <div class="publication-card">
+            <h3>Enhancing GPT-3.5's Proficiency in Netlogo Through Few-Shot Prompting and Retrieval-Augmented Generation</h3>
+            <p><a href="https://ieeexplore.ieee.org/abstract/document/10838967">Explore how GPT-3.5 boosts NetLogo code generation for agent-based models using few-shot and RAG methods.</a></p>
+          </div>
+          <div class="publication-card">
+            <h3>Exploring Large Language Models for Analyzing Changes in Web Archive Content: A Retrieval-Augmented Generation Approach</h3>
+            <p><a href="https://ieeexplore.ieee.org/abstract/document/10826069">Discover how GPT-4o helps uncover meaningful changes in archived U.S. government web pages using RAG and web archive files.</a></p>
+          </div>
+          <div class="publication-card">
+            <h3>Adapting and Validating a Survey to Assess Host Communities Support for Migration</h3>
+            <p><a href="https://link.springer.com/article/10.1007/s11205-024-03397-6">Check our validated survey tool for measuring community support for migration in the face of rapid and sudden arrival of people.</a></p>
+          </div>
+          <div class="publication-card">
+            <h3>BPM for mutual aid management in industrial emergency response</h3>
+            <p><a href="https://ieeexplore.ieee.org/abstract/document/10508837">Read about how BPM and ICT tools enhance coordination and resource management in hazardous materials emergency response.</a></p>
+          </div>
+        </div>
+        <p class="scroll-hint">Scroll for more →</p>
+      </section>
+      <!-- FIN sección de publicaciones -->
+  
     </section>
   </div>
-
-
-    <!-- continue below --------------------------------------------------------------->  
-
-  <!-- Latest Publications -->
-  <section class="publications-preview">
-    <h2>Latest Publications</h2>
-    <div class="blog-container">
-      <div class="blog-card">
-        <img src="images/blog1.jpg" alt="Image for Post 1">
-        <h3><a href="blog/post1.html" aria-label="Title of Post 1">Title of Post 1</a></h3>
-        <p>Brief summary of the post...</p>
-      </div>
-      <div class="blog-card">
-        <img src="images/blog2.jpg" alt="Image for Post 2">
-        <h3><a href="blog/post2.html" aria-label="Title of Post 2">Title of Post 2</a></h3>
-        <p>Brief summary of the post...</p>
-      </div>
-    </div>
-  </section>
 
   <!-- Footer -->
   <footer>
