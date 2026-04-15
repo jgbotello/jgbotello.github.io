@@ -1,447 +1,291 @@
-/* =========================================================
-   Jhon G. Botello — Professional Academic Website
-   Neutral, elegant, responsive, accessible
-   ========================================================= */
-
-:root {
-  --bg: #f5f7fa;
-  --surface: #ffffff;
-  --surface-soft: #f8fafc;
-  --text: #18212f;
-  --text-muted: #5b6676;
-  --heading: #0f172a;
-  --border: #d9e1ea;
-  --border-strong: #c7d0db;
-  --accent: #1f4e79;
-  --accent-hover: #163b5c;
-  --accent-soft: #eaf1f7;
-  --shadow-sm: 0 6px 18px rgba(15, 23, 42, 0.06);
-  --shadow-md: 0 14px 40px rgba(15, 23, 42, 0.10);
-  --shadow-lg: 0 24px 60px rgba(15, 23, 42, 0.14);
-  --radius-sm: 10px;
-  --radius-md: 18px;
-  --radius-lg: 28px;
-  --content-width: 1180px;
-  --transition: 0.25s ease;
-}
-
-/* Reset */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
+/* General Styles */
 body {
-  margin: 0;
   font-family: 'Inter', sans-serif;
-  background:
-    radial-gradient(circle at top left, rgba(31, 78, 121, 0.05), transparent 28%),
-    radial-gradient(circle at top right, rgba(15, 23, 42, 0.04), transparent 24%),
-    linear-gradient(180deg, #f8fafc 0%, var(--bg) 100%);
-  color: var(--text);
-  line-height: 1.7;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
 }
 
-/* Links */
-a {
-  color: inherit;
-}
-
-a:focus-visible,
-button:focus-visible {
-  outline: 3px solid rgba(31, 78, 121, 0.25);
-  outline-offset: 3px;
-  border-radius: 8px;
-}
-
-/* =========================================================
-   Header / Navigation
-   ========================================================= */
-
+/* Navigation Bar -----------------------------------------------*/
 .header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  background: rgba(255, 255, 255, 0.88);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  border-bottom: 1px solid rgba(217, 225, 234, 0.8);
-  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
-}
-
-.logo a {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.6rem;
-  text-decoration: none;
-  font-size: 1.08rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  color: var(--heading);
-  position: relative;
-  transition: color var(--transition);
-}
-
-.logo a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -0.3rem;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, var(--accent), transparent);
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform var(--transition);
-}
-
-.logo a:hover {
-  color: var(--accent);
-}
-
-.logo a:hover::after {
-  transform: scaleX(1);
+  padding: 0.6rem 2rem;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-family: 'Inter', sans-serif;
 }
 
 .nav ul {
   list-style: none;
   display: flex;
-  align-items: center;
-  gap: 1.4rem;
+  font-size: 0.9rem;
+  gap: 1.5rem;     
   margin: 0;
   padding: 0;
 }
 
 .nav a {
   text-decoration: none;
-  color: var(--text-muted);
-  font-size: 0.96rem;
-  font-weight: 500;
-  padding: 0.35rem 0;
-  position: relative;
-  transition: color var(--transition);
+  color: #333;
+  font-weight: 400;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  padding-bottom: 4px;
 }
 
-.nav a::after {
+.nav a:hover {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+}
+
+.logo a {
+  font-size: 1.1rem; 
+  font-weight: 700;
+  font-family: "Inter", sans-serif; 
+  color: #333; 
+  text-decoration: none; 
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  position: relative;
+}
+
+.logo-img {
+  width: 30px; /* Adjust size as needed */
+  height: auto;
+}
+
+/* Custom underline effect */
+.logo a::after {
   content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #007bff;
+  transition: width 0.3s ease-in-out;
   position: absolute;
   left: 0;
-  bottom: -0.15rem;
+  bottom: -3px;
+}
+
+.logo a:hover::after {
   width: 100%;
-  height: 2px;
-  background: var(--accent);
-  transform: scaleX(0);
-  transform-origin: center;
-  transition: transform var(--transition);
 }
 
-.nav a:hover,
-.nav a:focus-visible {
-  color: var(--heading);
+/* Hover effect */
+.logo a:hover {
+  color: #0056b3; /* Darker blue on hover */
 }
 
-.nav a:hover::after,
-.nav a:focus-visible::after {
-  transform: scaleX(1);
-}
+/*--------------------------------------------------------------*/
 
-/* =========================================================
-   Main Hero/Profile Card
-   ========================================================= */
 
+/* Profile section ---------------------------------------------*/
 .profile-wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 5.5rem 1.25rem 2rem;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px; 
 }
 
 .profile {
-  width: min(100%, var(--content-width));
-  background: linear-gradient(180deg, rgba(255,255,255,0.98) 0%, rgba(248,250,252,0.98) 100%);
-  border: 1px solid rgba(217, 225, 234, 0.9);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-lg);
-  padding: 8rem 3rem 3rem;
-  position: relative;
-  overflow: hidden;
-}
-
-.profile::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(circle at top center, rgba(31, 78, 121, 0.08), transparent 26%),
-    linear-gradient(180deg, rgba(255,255,255,0.35), transparent 28%);
-  pointer-events: none;
-}
-
-.profile-content {
-  position: relative;
-  z-index: 2;
   text-align: center;
-  max-width: 780px;
-  margin: 0 auto;
+  background: linear-gradient(to right, #f8f9fa, #ffffff);
+  width: 80%;
+  max-width: 1200px;
+  padding: 190px 20px 100px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .profile-pic {
-  width: 220px;
-  height: 220px;
-  object-fit: cover;
+  width: 270px;
+  height: 270px;
   border-radius: 50%;
+  object-fit: cover;
+  display: block;
   position: absolute;
-  top: 0;
+  top: -130px;
   left: 50%;
-  transform: translate(-50%, -50%);
-  border: 8px solid rgba(255, 255, 255, 0.98);
-  box-shadow: 0 16px 45px rgba(15, 23, 42, 0.18);
-  background: #fff;
-  z-index: 3;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+/* Adjust Text and Content */
+.profile-content {
+  position: relative;
+  z-index: 1;
+  padding-top: 120px;
 }
 
 .profile h1 {
-  margin: 0 0 0.8rem;
-  font-size: clamp(2rem, 4vw, 3.2rem);
-  line-height: 1.15;
-  font-weight: 800;
-  letter-spacing: -0.04em;
-  color: var(--heading);
+  font-size: 2.3rem;
+  text-align: center;
+  
 }
 
 .profile span {
-  color: var(--accent);
+  color: #007bff;
 }
 
 .profile p {
-  margin: 0.8rem auto 1.75rem;
-  font-size: 1rem;
-  color: var(--text-muted);
-  max-width: 700px;
+  font-size: 0.8rem;
+  margin: 12px 0;
+  text-align: center;
 }
 
-/* Social icons */
 .social-icons {
   display: flex;
   justify-content: center;
-  gap: 0.8rem;
-  margin: 1rem 0 1.4rem;
-  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: -36px;
+  margin-bottom: -10px; /* Moves icons closer to the top */
+  padding: 0; /* Remove any extra padding */
 }
 
 .social-icons a {
-  width: 46px;
-  height: 46px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 999px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  color: var(--text);
+  font-size: 25px;
+  color: #333; 
+  transition: color 0.3s ease-in-out;
   text-decoration: none;
-  font-size: 1.2rem;
-  box-shadow: var(--shadow-sm);
-  transition:
-    transform var(--transition),
-    color var(--transition),
-    border-color var(--transition),
-    box-shadow var(--transition),
-    background var(--transition);
 }
 
-.social-icons a:hover,
-.social-icons a:focus-visible {
-  transform: translateY(-2px);
-  color: var(--accent);
-  border-color: rgba(31, 78, 121, 0.35);
-  background: var(--accent-soft);
-  box-shadow: 0 12px 28px rgba(31, 78, 121, 0.14);
+.social-icons a:hover {
+  color: #0073b1; /* hover (mouse over icon) */
 }
 
-/* CTA button */
 .more-about-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 0.35rem;
-  padding: 0.95rem 1.5rem;
-  min-width: 180px;
-  border-radius: 999px;
+  display: inline-block;
+  background: linear-gradient(135deg, #007bff, #0056b3); /* Gradient blue */
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 14px 28px;
+  border-radius: 50px; /* Rounded button */
   text-decoration: none;
-  background: linear-gradient(135deg, var(--accent), #295f91);
-  color: #ffffff;
-  font-weight: 700;
-  letter-spacing: 0.01em;
-  border: 1px solid transparent;
-  box-shadow: 0 14px 28px rgba(31, 78, 121, 0.22);
-  transition:
-    transform var(--transition),
-    box-shadow var(--transition),
-    background var(--transition);
-}
-
-.more-about-btn:hover,
-.more-about-btn:focus-visible {
-  transform: translateY(-2px);
-  background: linear-gradient(135deg, var(--accent-hover), var(--accent));
-  box-shadow: 0 18px 34px rgba(31, 78, 121, 0.28);
-}
-
-.more-about-btn:active {
-  transform: translateY(0);
-}
-
-/* =========================================================
-   Publications Section
-   ========================================================= */
-
-.profile-publications {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3); /* Soft shadow */
+  border: none;
+  cursor: pointer;
   position: relative;
-  z-index: 2;
-  margin-top: 3.2rem;
-  padding-top: 1rem;
+  overflow: hidden;
+}
+
+/* Hover effect */
+.more-about-btn:hover {
+  background: linear-gradient(135deg, #0056b3, #003f80); /* Darker blue on hover */
+  box-shadow: 0 6px 15px rgba(0, 123, 255, 0.5); /* More glow effect */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Click effect */
+.more-about-btn:active {
+  transform: scale(0.98);
+  box-shadow: 0 3px 8px rgba(0, 123, 255, 0.3);
+}
+
+/* ----------------------------------------------------------*/
+
+/* Publication section */
+.profile-publications {
+  padding: 0px 2rem;
+  background: linear-gradient(to right, #f8f9fa, #ffffff);
 }
 
 .section-divider {
-  width: 100%;
-  max-width: 180px;
   height: 1px;
-  margin: 0 auto 2rem;
-  background: linear-gradient(90deg, transparent, var(--border-strong), transparent);
+  background: #ddd;
+  margin: 40px auto;
+  width: 80%;
 }
 
 .profile-publications h2 {
-  margin: 0 0 1.4rem;
-  text-align: center;
-  font-size: clamp(1.4rem, 2.5vw, 1.9rem);
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  color: var(--heading);
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #111;
 }
 
 .publications-container {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(240px, 1fr));
-  gap: 1.2rem;
-  margin-top: 1rem;
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 1rem;
 }
 
 .publication-card {
-  position: relative;
-  min-height: 310px;
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  border: 1px solid rgba(255,255,255,0.14);
-  box-shadow: var(--shadow-md);
+  flex: 0 0 260px;
+  padding: 16px;
+  border-radius: 10px;
+  scroll-snap-align: start;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  padding: 1.25rem;
+  justify-content: space-between;
   background-size: cover;
   background-position: center;
-  isolation: isolate;
-  transition:
-    transform var(--transition),
-    box-shadow var(--transition);
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  min-height: 280px;
 }
 
-.publication-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 20px 48px rgba(15, 23, 42, 0.16);
-}
-
+/* Overlay to improve contrast */
 .publication-card::before {
-  content: "";
+  content: '';
   position: absolute;
-  inset: 0;
-  background:
-    linear-gradient(180deg, rgba(15, 23, 42, 0.18) 0%, rgba(15, 23, 42, 0.82) 100%);
-  z-index: -2;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+  border-radius: 10px;
 }
 
-.publication-card::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, transparent 40%, rgba(15, 23, 42, 0.55) 100%);
-  z-index: -1;
+.publication-card * {
+  position: relative;
+  z-index: 1;
 }
 
 .publication-card h3 {
-  margin: 0 0 0.7rem;
   font-size: 1rem;
-  line-height: 1.4;
   font-weight: 700;
+  color: white;
+  margin-bottom: 0.5rem;
 }
 
 .publication-card a {
-  color: #ffffff;
   text-decoration: none;
+  color: white;
+  font-size: 1rem;
 }
 
-.publication-card a:hover,
-.publication-card a:focus-visible {
+.publication-card a:hover {
   text-decoration: underline;
-  text-underline-offset: 3px;
 }
 
 .publication-card p {
-  margin: 0;
-  font-size: 0.92rem;
-  line-height: 1.55;
-  color: rgba(255, 255, 255, 0.88);
+  color: #f0f0f0; /* más gris claro que blanco puro */
 }
 
 .scroll-hint {
-  display: none;
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 0.5rem;
+  text-align: right;
+  font-style: italic;
 }
 
-.view-all-btn {
-  margin-top: 1.6rem;
-  text-align: center;
-}
-
-.btn-outline {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.9rem 1.35rem;
-  border-radius: 999px;
-  border: 1px solid var(--border-strong);
-  background: rgba(255, 255, 255, 0.9);
-  color: var(--accent);
-  text-decoration: none;
-  font-weight: 600;
-  transition:
-    transform var(--transition),
-    background var(--transition),
-    border-color var(--transition),
-    color var(--transition),
-    box-shadow var(--transition);
-}
-
-.btn-outline:hover,
-.btn-outline:focus-visible {
-  transform: translateY(-2px);
-  background: var(--accent-soft);
-  border-color: rgba(31, 78, 121, 0.35);
-  box-shadow: var(--shadow-sm);
-}
-
-/* Background images */
+/* Background images per card */
 .bg-1 {
   background-image: url('images/publications_cards/bg-1.png');
 }
@@ -458,226 +302,128 @@ button:focus-visible {
   background-image: url('images/publications_cards/bg-4.png');
 }
 
-/* =========================================================
-   Publications page / generic main content
-   ========================================================= */
 
-.main-content {
-  max-width: 960px;
-  margin: 3rem auto;
-  padding: 0 1.5rem;
-}
-
-.publications-list h1 {
-  font-size: clamp(2rem, 3vw, 2.5rem);
-  margin-bottom: 1rem;
-  color: var(--heading);
-  letter-spacing: -0.03em;
-}
-
-.publications-list h2 {
-  margin-top: 2rem;
-  color: var(--heading);
-  font-size: 1.35rem;
-}
-
-.publications-list ol {
-  padding-left: 1.4rem;
-  line-height: 1.9;
-  color: var(--text);
-}
-
-.publications-list a {
-  color: var(--accent);
-  text-decoration: none;
-}
-
-.publications-list a:hover,
-.publications-list a:focus-visible {
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-
-/* =========================================================
-   Footer
-   ========================================================= */
-
-footer {
-  margin-top: 4rem;
-  padding: 1.6rem 1rem 2rem;
+.view-all-btn {
   text-align: center;
-  background: transparent;
-  color: var(--text-muted);
-  font-size: 0.92rem;
-  border-top: 1px solid rgba(217, 225, 234, 0.8);
+  margin-top: 1rem;
+}
+
+.btn-outline {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #6c757d;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #6c757d;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline:hover {
+  background-color: #6c757d;
+  color: white;
+}
+
+/* ----------------------------------------------------------*/
+
+/* Footer ---------------------------------------------*/
+footer {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.85rem;
+  color: #666;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 60px;
 }
 
 footer p {
   margin: 0;
 }
 
-/* =========================================================
-   Tablet
-   ========================================================= */
 
-@media (max-width: 1100px) {
-  .publications-container {
-    grid-template-columns: repeat(2, minmax(260px, 1fr));
-  }
 
-  .profile {
-    padding: 7.5rem 2rem 2.5rem;
-  }
-}
-
-/* =========================================================
-   Mobile
-   ========================================================= */
-
+/* Estilos para pantallas pequeñas */
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
-    gap: 0.85rem;
-    padding: 1rem 1rem 1.1rem;
+    padding: 1rem;
   }
 
   .nav ul {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.9rem 1.1rem;
-  }
-
-  .nav a {
-    font-size: 0.92rem;
-  }
-
-  .profile-wrapper {
-    padding: 4.5rem 0.9rem 1.2rem;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
   }
 
   .profile {
-    width: 100%;
-    padding: 6.2rem 1.2rem 2rem;
-    border-radius: 22px;
+    width: 95%;
+    padding: 150px 10px 50px;
   }
 
   .profile-pic {
     width: 150px;
     height: 150px;
-    border-width: 6px;
+    top: -75px;
   }
 
   .profile h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .profile p {
-    font-size: 0.96rem;
-  }
-
-  .social-icons a {
-    width: 42px;
-    height: 42px;
-    font-size: 1.08rem;
+    font-size: 0.9rem;
   }
 
   .publications-container {
-    display: flex;
-    overflow-x: auto;
-    gap: 1rem;
-    padding-bottom: 0.35rem;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
+    flex-wrap: wrap;
+    gap: 10px;
   }
 
   .publication-card {
-    min-width: 82%;
-    min-height: 300px;
-    scroll-snap-align: start;
-  }
-
-  .scroll-hint {
-    display: block;
-    margin-top: 0.9rem;
-    text-align: right;
-    font-size: 0.82rem;
-    color: var(--text-muted);
-    font-style: italic;
+    flex: 1 1 calc(100% - 20px);
+    max-width: 100%;
   }
 
   footer {
-    margin-top: 3rem;
-    font-size: 0.84rem;
+    font-size: 0.75rem;
   }
 }
 
-/* =========================================================
-   Small mobile
-   ========================================================= */
 
-@media (max-width: 480px) {
-  .header {
-    padding: 0.9rem 0.8rem 1rem;
+
+/* Estilos para pantallas pequeñas */
+  .main-content {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+    font-family: 'Inter', sans-serif;
   }
 
-  .logo a {
-    font-size: 1rem;
+  .publications-list h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
   }
 
-  .nav ul {
-    gap: 0.75rem 0.9rem;
+  .publications-list h2 {
+    margin-top: 2rem;
+    color: #444;
   }
 
-  .profile {
-    padding: 5.6rem 1rem 1.7rem;
+  .publications-list ol {
+    padding-left: 1.5rem;
+    line-height: 1.8;
   }
 
-  .profile-pic {
-    width: 126px;
-    height: 126px;
+  .publications-list a {
+    color: #007bff;
+    text-decoration: none;
   }
 
-  .profile h1 {
-    font-size: 1.75rem;
+  .publications-list a:hover {
+    text-decoration: underline;
   }
 
-  .profile p {
-    font-size: 0.92rem;
-  }
 
-  .more-about-btn,
-  .btn-outline {
-    width: 100%;
-    max-width: 260px;
-  }
 
-  .publication-card {
-    min-width: 88%;
-    padding: 1rem;
-  }
-
-  .publication-card h3 {
-    font-size: 0.96rem;
-  }
-
-  .publication-card p {
-    font-size: 0.88rem;
-  }
-}
-
-/* =========================================================
-   Reduced motion accessibility
-   ========================================================= */
-
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-
-  *,
-  *::before,
-  *::after {
-    transition: none !important;
-    animation: none !important;
-  }
-}
