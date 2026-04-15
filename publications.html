@@ -1,75 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Jhon G. Botello - PhD student in Computer Science, passionate about AI research, security, and societal implications of technology.">
-  <title>Jhon G. Botello</title>
-  <link rel="shortcut icon" type="image/x-icon" href="icons/initials-JB.png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Jhon G. Botello - Publications in AI, modeling and simulation, web archives, and social systems."
+  />
+  <title>Publications | Jhon G. Botello</title>
+  <link rel="shortcut icon" type="image/x-icon" href="icons/initials-JB.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 </head>
 
-<!-- navigation bar and presentation card -->
 <body>
   <header class="header">
     <div class="logo">
-      <a href="index.html">
-        <!--<img src="icons/initials-JB.png" alt="Logo" class="logo-img">-->
-        Jhon G. Botello
-      </a>
+      <a href="index.html">Jhon G. Botello</a>
     </div>
     <nav class="nav">
       <ul>
         <li><a href="about.html" aria-label="About">About</a></li>
         <li><a href="projects.html" aria-label="Projects">Projects</a></li>
         <li><a href="publications.html" aria-label="Publications">Publications</a></li>
-        <li><a href="blogs.html" aria-label="Blog">Blogs</a></li>
+        <li><a href="blogs.html" aria-label="Blog">Blog</a></li>
         <li><a href="resume.html" aria-label="Resume">Resume</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="main-content">
-    <section class="publications-list">
+  <main class="main-content publications-page">
+    <section class="publications-hero">
+      <p class="eyebrow">Research Output</p>
       <h1>Publications</h1>
-
-      <h2>2024</h2>
-      <ol>
-        <li>
-          Botello, J. G., Frew, L., Padilla, J. J., & Weigle, M. C. (2024).  
-          <strong>Exploring Large Language Models for Analysing Changes in Web Archive Content: A Retrieval-Augmented Generation Approach.</strong>  
-          In <em>P In 2024 IEEE International Conference on Big Data (BigData) (pp. 2410-2418).</em>, IEEE.  
-          [<a href="https://ieeexplore.ieee.org/abstract/document/10826069" target="_blank">Link to Publication</a>]
-        </li>
-        <li>
-          Martínez, J., Llinas, B., Botello, J. G., Padilla, J. J., & Frydenlund, E. (2024, December).  
-          <strong>Enhancing GPT-3.5's Proficiency in Netlogo Through Few-Shot Prompting and Retrieval-Augmented Generation.</strong>  
-          In <em>In 2024 Winter Simulation Conference (WSC) (pp. 666-677).</em>, IEEE.    
-          [<a href="https://ieeexplore.ieee.org/abstract/document/10838967" target="_blank">Link to Publication</a>]
-        </li>
-      </ol>
-
-      <h2>2023</h2>
-      <ol>
-        <li>
-          Botello, J. G., Palacio, K., Frydenlund, E., Llinás, H., & Padilla, J. J. (2024).  
-          <strong>Adapting and Validating a Survey to Assess Host Communities Support for Migration.</strong>  
-          In <em>Social Indicators Research, 174</em>,(2), 697-720.  
-          [<a href="https://link.springer.com/article/10.1007/s11205-024-03397-6" target="_blank">Link to Publication</a>]
-        </li>
-        <li>
-          Pachón-Carrascal, K., Maldonado, J. B., García-Llinás, G., Viloria-Núñez, C., Romero-Rodríguez, D., Maturana, A. Y., & Salgar, K. S. P. (2023, November). 
-          <strong>BPM for mutual aid management in industrial emergency response.</strong>  
-          In <em>2023 IEEE International Humanitarian Technology Conference (IHTC)</em>, (pp. 1-7). IEEE. 
-          [<a href="https://ieeexplore.ieee.org/abstract/document/10508837" target="_blank">Link to Publication</a>]
-        </li>
-      </ol>
+      <p class="publications-intro">
+        A selection of journal and conference papers across AI, modeling and simulation,
+        web archives, and social systems.
+      </p>
     </section>
+
+    <section class="filters">
+      <div class="filter-group">
+        <label for="yearFilter">Filter by year</label>
+        <select id="yearFilter">
+          <option value="all">All years</option>
+          <option value="2025">2025</option>
+          <option value="2024">2024</option>
+          <option value="2023">2023</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="typeFilter">Filter by type</label>
+        <select id="typeFilter">
+          <option value="all">All types</option>
+          <option value="journal">Journal Paper</option>
+          <option value="conference">Conference Paper</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="results-bar">
+      <p id="resultsCount">Showing all publications</p>
+    </section>
+
+    <section class="publications-grid" id="publicationsGrid">
+
+      <!-- 2025 -->
+      <article class="publication-item" data-year="2025" data-type="conference">
+        <div class="publication-meta">
+          <span class="pub-badge year">2025</span>
+          <span class="pub-badge type conference">Conference Paper</span>
+        </div>
+        <h2>
+          Toward Automating System Dynamics Modeling: Evaluating LLMs in the Transition from Narratives to Formal Structures
+        </h2>
+        <p class="publication-authors">
+          Botello, J. G., Llinas, B., Padilla, J. J., & Frydenlund, E.
+        </p>
+        <p class="publication-venue">
+          <em>Proceedings of the 2025 Winter Simulation Conference</em>
+        </p>
+        <div class="publication-links">
+          <a href="https://ieeexplore.ieee.org/abstract/document/11338856" target="_blank" rel="noopener noreferrer">
+            View publication
+          </a>
+        </div>
+      </article>
+
+      <!-- 2024 -->
+      <article class="publication-item" data-year="2024" data-type="conference">
+        <div class="publication-meta">
+          <span class="pub-badge year">2024</span>
+          <span class="pub-badge type conference">Conference Paper</span>
+        </div>
+        <h2>
+          Exploring Large Language Models for Analysing Changes in Web Archive Content: A Retrieval-Augmented Generation Approach
+        </h2>
+        <p class="publication-authors">
+          Botello, J. G., Frew, L., Padilla, J. J., & Weigle, M. C.
+        </p>
+        <p class="publication-venue">
+          <em>2024 IEEE International Conference on Big Data (BigData)</em>, IEEE
+        </p>
+        <div class="publication-links">
+          <a href="https://ieeexplore.ieee.org/abstract/document/10826069" target="_blank" rel="noopener noreferrer">
+            View publication
+          </a>
+        </div>
+      </article>
+
+      <article class="publication-item" data-year="2024" data-type="conference">
+        <div class="publication-meta">
+          <span class="pub-badge year">2024</span>
+          <span class="pub-badge type conference">Conference Paper</span>
+        </div>
+        <h2>
+          Enhancing GPT-3.5's Proficiency in NetLogo Through Few-Shot Prompting and Retrieval-Augmented Generation
+        </h2>
+        <p class="publication-authors">
+          Martínez, J., Llinas, B., Botello, J. G., Padilla, J. J., & Frydenlund, E.
+        </p>
+        <p class="publication-venue">
+          <em>2024 Winter Simulation Conference (WSC)</em>, IEEE
+        </p>
+        <div class="publication-links">
+          <a href="https://ieeexplore.ieee.org/abstract/document/10838967" target="_blank" rel="noopener noreferrer">
+            View publication
+          </a>
+        </div>
+      </article>
+
+      <article class="publication-item" data-year="2024" data-type="journal">
+        <div class="publication-meta">
+          <span class="pub-badge year">2024</span>
+          <span class="pub-badge type journal">Journal Paper</span>
+        </div>
+        <h2>
+          Adapting and Validating a Survey to Assess Host Communities Support for Migration
+        </h2>
+        <p class="publication-authors">
+          Botello, J. G., Palacio, K., Frydenlund, E., Llinás, H., & Padilla, J. J.
+        </p>
+        <p class="publication-venue">
+          <em>Social Indicators Research</em>, 174(2), 697–720
+        </p>
+        <div class="publication-links">
+          <a href="https://link.springer.com/article/10.1007/s11205-024-03397-6" target="_blank" rel="noopener noreferrer">
+            View publication
+          </a>
+        </div>
+      </article>
+
+      <!-- 2023 -->
+      <article class="publication-item" data-year="2023" data-type="conference">
+        <div class="publication-meta">
+          <span class="pub-badge year">2023</span>
+          <span class="pub-badge type conference">Conference Paper</span>
+        </div>
+        <h2>
+          BPM for Mutual Aid Management in Industrial Emergency Response
+        </h2>
+        <p class="publication-authors">
+          Pachón-Carrascal, K., Maldonado, J. B., García-Llinás, G., Viloria-Núñez, C.,
+          Romero-Rodríguez, D., Maturana, A. Y., & Salgar, K. S. P.
+        </p>
+        <p class="publication-venue">
+          <em>2023 IEEE International Humanitarian Technology Conference (IHTC)</em>, IEEE
+        </p>
+        <div class="publication-links">
+          <a href="https://ieeexplore.ieee.org/abstract/document/10508837" target="_blank" rel="noopener noreferrer">
+            View publication
+          </a>
+        </div>
+      </article>
+
+    </section>
+
+    <p id="noResultsMessage" class="no-results" style="display: none;">
+      No publications match the selected filters.
+    </p>
   </main>
 
   <footer>
     <p>© 2025 Jhon G. Botello | All rights reserved.</p>
   </footer>
+
+  <script>
+    const yearFilter = document.getElementById("yearFilter");
+    const typeFilter = document.getElementById("typeFilter");
+    const publications = document.querySelectorAll(".publication-item");
+    const noResultsMessage = document.getElementById("noResultsMessage");
+    const resultsCount = document.getElementById("resultsCount");
+
+    function filterPublications() {
+      const selectedYear = yearFilter.value;
+      const selectedType = typeFilter.value;
+
+      let visibleCount = 0;
+
+      publications.forEach((item) => {
+        const itemYear = item.dataset.year;
+        const itemType = item.dataset.type;
+
+        const matchesYear = selectedYear === "all" || itemYear === selectedYear;
+        const matchesType = selectedType === "all" || itemType === selectedType;
+
+        if (matchesYear && matchesType) {
+          item.style.display = "block";
+          visibleCount++;
+        } else {
+          item.style.display = "none";
+        }
+      });
+
+      if (visibleCount === 0) {
+        noResultsMessage.style.display = "block";
+        resultsCount.textContent = "Showing 0 publications";
+      } else {
+        noResultsMessage.style.display = "none";
+        resultsCount.textContent = `Showing ${visibleCount} publication${visibleCount > 1 ? "s" : ""}`;
+      }
+    }
+
+    yearFilter.addEventListener("change", filterPublications);
+    typeFilter.addEventListener("change", filterPublications);
+
+    filterPublications();
+  </script>
+</body>
+</html>
