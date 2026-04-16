@@ -760,12 +760,14 @@ a {
 }
 
 .blog-card {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.92);
   border: 1px solid rgba(15, 23, 42, 0.08);
   border-radius: 24px;
   overflow: hidden;
   box-shadow: 0 16px 40px rgba(15, 23, 42, 0.06);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 .blog-card:hover {
@@ -784,8 +786,8 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
   display: block;
-  transition: transform 0.35s ease;
 }
 
 .blog-card:hover .blog-cover {
@@ -793,7 +795,7 @@ a {
 }
 
 .blog-card-body {
-  padding: 1.4rem 1.5rem 1.5rem;
+  padding: 1.35rem 1.35rem 1.4rem;
 }
 
 .blog-card-top {
@@ -822,8 +824,8 @@ a {
 }
 
 .blog-card h2 {
-  font-size: 1.32rem;
-  line-height: 1.4;
+  font-size: 1.22rem;
+  line-height: 1.35;
   color: #0f172a;
   margin: 0 0 0.85rem;
 }
@@ -832,14 +834,14 @@ a {
   font-size: 0.98rem;
   line-height: 1.75;
   color: #475569;
-  margin-bottom: 1rem;
+  margin: 0 0 1rem;
 }
 
 .blog-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.55rem;
-  margin-bottom: 1.1rem;
+  margin: 0 0 1rem;
 }
 
 .blog-tags span {
@@ -857,6 +859,7 @@ a {
   text-decoration: none;
   color: #2563eb;
   font-weight: 700;
+  margin-top: auto;
 }
 
 .blog-link:hover {
