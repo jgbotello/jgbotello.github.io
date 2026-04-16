@@ -757,6 +757,7 @@ a {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.5rem;
+  align-items: start;
 }
 
 .blog-card {
@@ -768,6 +769,7 @@ a {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .blog-card:hover {
@@ -788,6 +790,7 @@ a {
   object-fit: cover;
   object-position: center;
   display: block;
+  transition: transform 0.35s ease;
 }
 
 .blog-card:hover .blog-cover {
@@ -795,6 +798,9 @@ a {
 }
 
 .blog-card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   padding: 1.35rem 1.35rem 1.4rem;
 }
 
@@ -903,7 +909,7 @@ a {
     width: 100%;
   }
 
-  .blog-card {
+  .blog-card-body {
     padding: 1.2rem;
   }
 
