@@ -1,1 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Blog posts by Jhon G. Botello on AI, modeling and simulation, migration, digital humanities, and web archives."
+  />
+  <title>Blog | Jhon G. Botello</title>
 
+  <link rel="shortcut icon" type="image/x-icon" href="icons/initials-JB.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a href="index.html" class="brand">Jhon G. Botello</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="blogs.html">Blog</a></li>
+          <li><a href="resume.html">Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="blogs-page">
+    <section class="blogs-hero">
+      <p class="eyebrow">Writing & Outreach</p>
+      <h1>Blog Posts</h1>
+      <p class="blogs-intro">
+        A collection of my posts on AI, modeling and simulation, web archives,
+        migration, and digital humanities.
+      </p>
+    </section>
+
+    <section class="blog-filters">
+      <div class="filter-group">
+        <label for="sourceFilter">Filter by source</label>
+        <select id="sourceFilter">
+          <option value="all">All sources</option>
+          <option value="storymodelers">Storymodelers</option>
+          <option value="wsdl">WS-DL</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="yearFilter">Filter by year</label>
+        <select id="yearFilter">
+          <option value="all">All years</option>
+          <option value="2026">2026</option>
+          <option value="2025">2025</option>
+          <option value="2024">2024</option>
+          <option value="2023">2023</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="topicFilter">Filter by topic</label>
+        <select id="topicFilter">
+          <option value="all">All topics</option>
+          <option value="ai">AI</option>
+          <option value="web-archives">Web Archives</option>
+          <option value="migration">Migration</option>
+          <option value="digital-humanities">Digital Humanities</option>
+          <option value="academic-writing">Academic Writing</option>
+          <option value="introduction">Introduction</option>
+        </select>
+      </div>
+
+      <div class="filter-actions">
+        <button id="resetFilters" type="button" class="reset-btn">Reset filters</button>
+      </div>
+    </section>
+
+    <section class="blog-results-bar">
+      <p id="blogResultsCount">Showing all blog posts</p>
+    </section>
+
+    <section class="blogs-grid" id="blogsGrid">
+
+      <article
+        class="blog-card"
+        data-source="storymodelers"
+        data-year="2025"
+        data-topic="migration"
+      >
+        <div class="blog-card-top">
+          <span class="blog-source">Storymodelers</span>
+          <span class="blog-date">Apr 2025</span>
+        </div>
+        <h2>Beyond the Survey: Insights and Challenges from Fieldwork on Barranquilla’s Response to the Migration Situation</h2>
+        <p class="blog-summary">
+          Reflections on fieldwork in Barranquilla, including participant trust,
+          survey fatigue, and what community-based migration research reveals beyond the data.
+        </p>
+        <div class="blog-tags">
+          <span>Migration</span>
+          <span>Fieldwork</span>
+          <span>Colombia</span>
+        </div>
+        <a href="https://www.storymodelers.org/post/beyond-the-survey" target="_blank" rel="noopener noreferrer" class="blog-link">
+          Read post
+        </a>
+      </article>
+
+      <article
+        class="blog-card"
+        data-source="wsdl"
+        data-year="2026"
+        data-topic="ai"
+      >
+        <div class="blog-card-top">
+          <span class="blog-source">WS-DL</span>
+          <span class="blog-date">Mar 2026</span>
+        </div>
+        <h2>A Glimpse into How AI Tools Can Enhance the Way We Study Web Archive Content</h2>
+        <p class="blog-summary">
+          A post on how AI tools can support the study of web archive content,
+          including opportunities, challenges, and research directions.
+        </p>
+        <div class="blog-tags">
+          <span>AI</span>
+          <span>Web Archives</span>
+          <span>Research</span>
+        </div>
+        <a href="https://ws-dl.blogspot.com/2026/03/2026-03-18-glimpse-into-how-ai-tools.html" target="_blank" rel="noopener noreferrer" class="blog-link">
+          Read post
+        </a>
+      </article>
+
+      <article
+        class="blog-card"
+        data-source="storymodelers"
+        data-year="2024"
+        data-topic="digital-humanities"
+      >
+        <div class="blog-card-top">
+          <span class="blog-source">Storymodelers</span>
+          <span class="blog-date">Aug 2024</span>
+        </div>
+        <h2>The Digital Methods for the Study of Mobilities Workshop: A Non-Historian Perspective</h2>
+        <p class="blog-summary">
+          Notes and reflections from the workshop at INALCO in Paris, focusing on
+          digital history, mobility research, and interdisciplinary collaboration.
+        </p>
+        <div class="blog-tags">
+          <span>Digital Humanities</span>
+          <span>Mobility</span>
+          <span>Workshop</span>
+        </div>
+        <a href="https://www.storymodelers.org/post/the-digital-methods-for-the-study-of-mobilities-workshop-a-non-historian-perspective" target="_blank" rel="noopener noreferrer" class="blog-link">
+          Read post
+        </a>
+      </article>
+
+      <article
+        class="blog-card"
+        data-source="storymodelers"
+        data-year="2024"
+        data-topic="digital-humanities"
+      >
+        <div class="blog-card-top">
+          <span class="blog-source">Storymodelers</span>
+          <span class="blog-date">Jan 2024</span>
+        </div>
+        <h2>Digital Humanities and the Study of Mediterranean Mobilities Workshop</h2>
+        <p class="blog-summary">
+          A post about the workshop experience and how digital humanities methods
+          can help study historical and Mediterranean mobility.
+        </p>
+        <div class="blog-tags">
+          <span>Digital Humanities</span>
+          <span>Mediterranean</span>
+          <span>Mobility</span>
+        </div>
+        <a href="https://www.storymodelers.org/post/digital-humanities-and-the-study-of-mediterranean-mobilities-workshop" target="_blank" rel="noopener noreferrer" class="blog-link">
+          Read post
+        </a>
+      </article>
+
+      <article
+        class="blog-card"
+        data-source="storymodelers"
+        data-year="2024"
+        data-topic="academic-writing"
+      >
+        <div class="blog-card-top">
+          <span class="blog-source">Storymodelers</span>
+          <span class="blog-date">Jan 2024</span>
+        </div>
+        <h2>How to Write a Good Grant Proposal to NSF? Insights from Dr. Joshua Behr</h2>
+        <p class="blog-summary">
+          A practical post sharing insights and lessons on writing stronger NSF grant proposals.
+        </p>
+        <div class="blog-tags">
+          <span>Grants</span>
+          <span>NSF</span>
+          <span>Academic Writing</span>
+        </div>
+        <a href="https://www.storymodelers.org/post/how-to-write-a-good-grant-proposal-to-nsf-insights-from-dr-joshua-behr" target="_blank" rel="noopener noreferrer" class="blog-link">
+          Read post
+        </a>
+      </article>
+
+      <article
+        class="blog-card"
+        data-source="wsdl"
+        data-year="2025"
+        data-topic="web-archives"
+      >
+        <div class="blog-card-top">
+          <span class="blog-source">WS-DL</span>
+          <span class="blog-date">Jan 2025</span>
+        </div>
+        <h2>Can LLMs Detect and Analyze Changes in Webpages?</h2>
+        <p class="blog-summary">
+          An accessible overview of using large language models to detect and
+          interpret meaningful changes in archived web content.
+        </p>
+        <div class="blog-tags">
+          <span>LLMs</span>
+          <span>Web Archives</span>
+          <span>Web Science</span>
+        </div>
+        <a href="https://ws-dl.blogspot.com/2025/01/2025-01-27-can-llms-detect-and-analyze.html" target="_blank" rel="noopener noreferrer" class="blog-link">
+          Read post
+        </a>
+      </article>
+
+      <article
+        class="blog-card"
+        data-source="wsdl"
+        data-year="2024"
+        data-topic="digital-humanities"
+      >
+        <div class="blog-card-top">
+          <span class="blog-source">WS-DL</span>
+          <span class="blog-date">Sep 2024</span>
+        </div>
+        <h2>Digital Methods for the Study of Mobilities Workshop Trip Report</h2>
+        <p class="blog-summary">
+          A trip report documenting the workshop experience and the role of
+          computational and digital methods in historical mobility studies.
+        </p>
+        <div class="blog-tags">
+          <span>Trip Report</span>
+          <span>Digital Methods</span>
+          <span>History</span>
+        </div>
+        <a href="https://ws-dl.blogspot.com/2024/09/2024-08-22-digital-methods-for-study-of.html" target="_blank" rel="noopener noreferrer" class="blog-link">
+          Read post
+        </a>
+      </article>
+
+      <article
+        class="blog-card"
+        data-source="wsdl"
+        data-year="2024"
+        data-topic="digital-humanities"
+      >
+        <div class="blog-card-top">
+          <span class="blog-source">WS-DL</span>
+          <span class="blog-date">Mar 2024</span>
+        </div>
+        <h2>Digital Humanities and the Study of Mediterranean Mobilities Workshop 2024 Trip Report</h2>
+        <p class="blog-summary">
+          A companion trip report highlighting the event, discussions, and the
+          broader research value of digital approaches to mobility studies.
+        </p>
+        <div class="blog-tags">
+          <span>Trip Report</span>
+          <span>Digital Humanities</span>
+          <span>Workshop</span>
+        </div>
+        <a href="https://ws-dl.blogspot.com/2024/03/2024-03-07-digital-humanities-and-study.html" target="_blank" rel="noopener noreferrer" class="blog-link">
+          Read post
+        </a>
+      </article>
+
+      <article
+        class="blog-card"
+        data-source="wsdl"
+        data-year="2023"
+        data-topic="introduction"
+      >
+        <div class="blog-card-top">
+          <span class="blog-source">WS-DL</span>
+          <span class="blog-date">Oct 2023</span>
+        </div>
+        <h2>Jhon G. Botello (Computer Science PhD Student)</h2>
+        <p class="blog-summary">
+          An introductory post presenting your background, research interests,
+          and arrival to the WS-DL group at Old Dominion University.
+        </p>
+        <div class="blog-tags">
+          <span>Introduction</span>
+          <span>PhD</span>
+          <span>WS-DL</span>
+        </div>
+        <a href="https://ws-dl.blogspot.com/2023/10/2023-10-26-jhon-g-botello-computer.html" target="_blank" rel="noopener noreferrer" class="blog-link">
+          Read post
+        </a>
+      </article>
+
+    </section>
+
+    <p id="noBlogResults" class="no-results" style="display: none;">
+      No blog posts match the selected filters.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 Jhon G. Botello. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const sourceFilter = document.getElementById("sourceFilter");
+    const yearFilter = document.getElementById("yearFilter");
+    const topicFilter = document.getElementById("topicFilter");
+    const resetFilters = document.getElementById("resetFilters");
+    const blogCards = document.querySelectorAll(".blog-card");
+    const blogResultsCount = document.getElementById("blogResultsCount");
+    const noBlogResults = document.getElementById("noBlogResults");
+
+    function filterBlogs() {
+      const selectedSource = sourceFilter.value;
+      const selectedYear = yearFilter.value;
+      const selectedTopic = topicFilter.value;
+
+      let visibleCount = 0;
+
+      blogCards.forEach((card) => {
+        const cardSource = card.dataset.source;
+        const cardYear = card.dataset.year;
+        const cardTopic = card.dataset.topic;
+
+        const matchesSource = selectedSource === "all" || cardSource === selectedSource;
+        const matchesYear = selectedYear === "all" || cardYear === selectedYear;
+        const matchesTopic = selectedTopic === "all" || cardTopic === selectedTopic;
+
+        if (matchesSource && matchesYear && matchesTopic) {
+          card.style.display = "block";
+          visibleCount++;
+        } else {
+          card.style.display = "none";
+        }
+      });
+
+      if (visibleCount === 0) {
+        noBlogResults.style.display = "block";
+        blogResultsCount.textContent = "Showing 0 blog posts";
+      } else {
+        noBlogResults.style.display = "none";
+        blogResultsCount.textContent = `Showing ${visibleCount} blog post${visibleCount > 1 ? "s" : ""}`;
+      }
+    }
+
+    sourceFilter.addEventListener("change", filterBlogs);
+    yearFilter.addEventListener("change", filterBlogs);
+    topicFilter.addEventListener("change", filterBlogs);
+
+    resetFilters.addEventListener("click", () => {
+      sourceFilter.value = "all";
+      yearFilter.value = "all";
+      topicFilter.value = "all";
+      filterBlogs();
+    });
+
+    filterBlogs();
+  </script>
+</body>
+</html>
