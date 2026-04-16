@@ -87,7 +87,7 @@
 
     <section class="blogs-grid" id="blogsGrid">
 
-      <article class="blog-card" data-source="storymodelers" data-year="2025" data-topic="migration">
+      <article class="blog-card" data-source="storymodelers" data-year="2025" data-topic="migration" data-date="2025-04">
         <div class="blog-cover-wrapper">
           <img
             src="images/blogs/storymodelers_survey.avif"
@@ -117,7 +117,7 @@
         </div>
       </article>
 
-      <article class="blog-card" data-source="wsdl" data-year="2026" data-topic="ai">
+      <article class="blog-card" data-source="wsdl" data-year="2026" data-topic="ai" data-date="2026-03">
         <div class="blog-cover-wrapper">
           <img
             src="images/blogs/wsdl_ai_webarchive.png"
@@ -147,7 +147,7 @@
         </div>
       </article>
 
-      <article class="blog-card" data-source="storymodelers" data-year="2024" data-topic="digital-humanities">
+      <article class="blog-card" data-source="storymodelers" data-year="2024" data-topic="digital-humanities" data-date="2024-08">
         <div class="blog-cover-wrapper">
           <img
             src="images/blogs/storymodelers_paris.avif"
@@ -177,7 +177,7 @@
         </div>
       </article>
 
-      <article class="blog-card" data-source="storymodelers" data-year="2024" data-topic="digital-humanities">
+      <article class="blog-card" data-source="storymodelers" data-year="2024" data-topic="digital-humanities" data-date="2024-01">
         <div class="blog-cover-wrapper">
           <img
             src="images/blogs/storymodelers_berkeley.avif"
@@ -207,7 +207,7 @@
         </div>
       </article>
 
-      <article class="blog-card" data-source="storymodelers" data-year="2024" data-topic="academic-writing">
+      <article class="blog-card" data-source="storymodelers" data-year="2024" data-topic="academic-writing" data-date="2024-01">
         <div class="blog-cover-wrapper">
           <img
             src="images/blogs/storymodelers_nsf.avif"
@@ -236,7 +236,7 @@
         </div>
       </article>
 
-      <article class="blog-card" data-source="wsdl" data-year="2025" data-topic="web-archives">
+      <article class="blog-card" data-source="wsdl" data-year="2025" data-topic="web-archives" data-date="2025-01">
         <div class="blog-cover-wrapper">
           <img
             src="images/blogs/wsdl_llm_changes.png"
@@ -266,7 +266,7 @@
         </div>
       </article>
 
-      <article class="blog-card" data-source="wsdl" data-year="2024" data-topic="digital-humanities">
+      <article class="blog-card" data-source="wsdl" data-year="2024" data-topic="digital-humanities" data-date="2024-09">
         <div class="blog-cover-wrapper">
           <img
             src="images/blogs/wsdl_paris.png"
@@ -296,7 +296,7 @@
         </div>
       </article>
 
-      <article class="blog-card" data-source="wsdl" data-year="2024" data-topic="digital-humanities">
+      <article class="blog-card" data-source="wsdl" data-year="2024" data-topic="digital-humanities" data-date="2024-03">
         <div class="blog-cover-wrapper">
           <img
             src="images/blogs/wsdl_berkeley.png"
@@ -326,7 +326,7 @@
         </div>
       </article>
 
-      <article class="blog-card" data-source="wsdl" data-year="2023" data-topic="introduction">
+      <article class="blog-card" data-source="wsdl" data-year="2023" data-topic="introduction" data-date="2023-10">
         <div class="blog-cover-wrapper">
           <img
             src="images/blogs/wsdl_intro.jpg"
@@ -410,6 +410,20 @@
         blogResultsCount.textContent = `Showing ${visibleCount} blog post${visibleCount > 1 ? "s" : ""}`;
       }
     }
+
+      const blogsGrid = document.getElementById("blogsGrid");
+
+      // Convert NodeList → Array
+      const blogArray = Array.from(blogCards);
+
+      // Sort by date (newest first)
+      blogArray.sort((a, b) => {
+        return new Date(b.dataset.date) - new Date(a.dataset.date);
+      });
+
+      // Re-append in sorted order
+      blogArray.forEach(card => blogsGrid.appendChild(card));
+    
 
     sourceFilter.addEventListener("change", filterBlogs);
     yearFilter.addEventListener("change", filterBlogs);
