@@ -1,0 +1,159 @@
+[
+  {
+    "source": "wsdl",
+    "year": "2026",
+    "topic": "web-archives",
+    "date": "2026-09",
+    "title": "WSDL Cartoon Book: Issue 1: Trip to Norway and How It Changed the Way I Think About Web Archives and Digital Libraries",
+    "summary": "",
+    "url": "https://ws-dl.blogspot.com/2026/09/2026-07-13-wsdl-cartoon-book-issue-1.html",
+    "image": "",
+    "tags": []
+  },
+  {
+    "source": "wsdl",
+    "year": "2024",
+    "topic": "conferences",
+    "date": "2024-01",
+    "title": "16th International Conference on Social Computing, Behavioral-Cultural Modeling & Prediction and Behavior Representation in Modeling and Simulation (SBP-BRiMS) 2023 Trip Report",
+    "summary": "",
+    "url": "https://ws-dl.blogspot.com/2024/01/2024-01-29-16thinternational.html",
+    "image": "",
+    "tags": []
+  },
+  {
+    "source": "storymodelers",
+    "year": "2025",
+    "topic": "migration",
+    "date": "2025-04",
+    "title": "Beyond the Survey: Insights and Challenges from Fieldwork on Barranquilla’s Response to the Migration Situation",
+    "summary": "Reflections on fieldwork in Barranquilla, including participant trust, survey fatigue, and what community-based migration research reveals beyond the data.",
+    "url": "https://www.storymodelers.org/post/beyond-the-survey",
+    "image": "images/blogs/storymodelers_survey.avif",
+    "tags": [
+      "Migration",
+      "Fieldwork",
+      "Colombia"
+    ]
+  },
+  {
+    "source": "wsdl",
+    "year": "2026",
+    "topic": "ai",
+    "date": "2026-03",
+    "title": "A Glimpse into How AI Tools Can Enhance the Way We Study Web Archive Content",
+    "summary": "A post on how AI tools can support the study of web archive content, including opportunities, challenges, and research directions.",
+    "url": "https://ws-dl.blogspot.com/2026/03/2026-03-18-glimpse-into-how-ai-tools.html",
+    "image": "images/blogs/wsdl_ai_webarchive.png",
+    "tags": [
+      "AI",
+      "Web Archives",
+      "Research"
+    ]
+  },
+  {
+    "source": "storymodelers",
+    "year": "2024",
+    "topic": "digital-humanities",
+    "date": "2024-08",
+    "title": "The Digital Methods for the Study of Mobilities Workshop: A Non-Historian Perspective",
+    "summary": "Notes and reflections from the workshop at INALCO in Paris, focusing on digital history, mobility research, and interdisciplinary collaboration.",
+    "url": "https://www.storymodelers.org/post/the-digital-methods-for-the-study-of-mobilities-workshop-a-non-historian-perspective",
+    "image": "images/blogs/storymodelers_paris.avif",
+    "tags": [
+      "Digital Humanities",
+      "Mobility",
+      "Workshop"
+    ]
+  },
+  {
+    "source": "storymodelers",
+    "year": "2024",
+    "topic": "digital-humanities",
+    "date": "2024-01",
+    "title": "Digital Humanities and the Study of Mediterranean Mobilities Workshop",
+    "summary": "A post about the workshop experience and how digital humanities methods can help study historical and Mediterranean mobility.",
+    "url": "https://www.storymodelers.org/post/digital-humanities-and-the-study-of-mediterranean-mobilities-workshop",
+    "image": "images/blogs/storymodelers_berkeley.avif",
+    "tags": [
+      "Digital Humanities",
+      "Mediterranean",
+      "Mobility"
+    ]
+  },
+  {
+    "source": "storymodelers",
+    "year": "2024",
+    "topic": "academic-writing",
+    "date": "2024-01",
+    "title": "How to Write a Good Grant Proposal to NSF? Insights from Dr. Joshua Behr",
+    "summary": "A practical post sharing insights and lessons on writing stronger NSF grant proposals.",
+    "url": "https://www.storymodelers.org/post/how-to-write-a-good-grant-proposal-to-nsf-insights-from-dr-joshua-behr",
+    "image": "images/blogs/storymodelers_nsf.avif",
+    "tags": [
+      "Grants",
+      "NSF",
+      "Academic Writing"
+    ]
+  },
+  {
+    "source": "wsdl",
+    "year": "2025",
+    "topic": "web-archives",
+    "date": "2025-01",
+    "title": "Can LLMs Detect and Analyze Changes in Webpages?",
+    "summary": "An accessible overview of using large language models to detect and interpret meaningful changes in archived web content.",
+    "url": "https://ws-dl.blogspot.com/2025/01/2025-01-27-can-llms-detect-and-analyze.html",
+    "image": "images/blogs/wsdl_llm_changes.png",
+    "tags": [
+      "LLMs",
+      "Web Archives",
+      "Web Science"
+    ]
+  },
+  {
+    "source": "wsdl",
+    "year": "2024",
+    "topic": "digital-humanities",
+    "date": "2024-09",
+    "title": "Digital Methods for the Study of Mobilities Workshop Trip Report",
+    "summary": "A trip report documenting the workshop experience and the role of computational and digital methods in historical mobility studies.",
+    "url": "https://ws-dl.blogspot.com/2024/09/2024-08-22-digital-methods-for-study-of.html",
+    "image": "images/blogs/wsdl_paris.png",
+    "tags": [
+      "Trip Report",
+      "Digital Methods",
+      "History"
+    ]
+  },
+  {
+    "source": "wsdl",
+    "year": "2024",
+    "topic": "digital-humanities",
+    "date": "2024-03",
+    "title": "Digital Humanities and the Study of Mediterranean Mobilities Workshop 2024 Trip Report",
+    "summary": "A companion trip report highlighting the event, discussions, and the broader research value of digital approaches to mobility studies.",
+    "url": "https://ws-dl.blogspot.com/2024/03/2024-03-07-digital-humanities-and-study.html",
+    "image": "images/blogs/wsdl_berkeley.png",
+    "tags": [
+      "Trip Report",
+      "Digital Humanities",
+      "Workshop"
+    ]
+  },
+  {
+    "source": "wsdl",
+    "year": "2023",
+    "topic": "introduction",
+    "date": "2023-10",
+    "title": "Jhon G. Botello (Computer Science PhD Student)",
+    "summary": "An introductory post presenting my background, research interests, and arrival to the WS-DL group at Old Dominion University.",
+    "url": "https://ws-dl.blogspot.com/2023/10/2023-10-26-jhon-g-botello-computer.html",
+    "image": "images/blogs/wsdl_intro.jpg",
+    "tags": [
+      "Introduction",
+      "PhD",
+      "WS-DL"
+    ]
+  }
+]

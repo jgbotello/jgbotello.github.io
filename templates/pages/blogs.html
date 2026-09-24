@@ -1,0 +1,112 @@
+<main id="main" class="page-main">
+  <section class="container page-intro writing-intro">
+    <div>
+      <p class="eyebrow">
+        Writing &amp; field notes
+      </p>
+      <h1>
+        Beyond
+        <br>
+        <em>
+          the paper.
+        </em>
+      </h1>
+    </div>
+    <p class="standfirst">
+      Reflections on research, fieldwork, web archives, and the conversations that shape the work.
+    </p>
+  </section>
+  <div class="container">
+    <form class="filter-bar blog-filters" id="blogFilters" aria-label="Filter blog posts">
+      <div class="filter-group">
+        <label for="sourceFilter">
+          Published on
+        </label>
+        <select id="sourceFilter">
+          <option value="all">
+            All sources
+          </option>
+          <option value="storymodelers">
+            Storymodelers
+          </option>
+          <option value="wsdl">
+            WS-DL
+          </option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="yearFilter">
+          Year
+        </label>
+        <select id="yearFilter">
+          <option value="all">
+            All years
+          </option>
+          <option value="2026">
+            2026
+          </option>
+          <option value="2025">
+            2025
+          </option>
+          <option value="2024">
+            2024
+          </option>
+          <option value="2023">
+            2023
+          </option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="topicFilter">
+          Topic
+        </label>
+        <select id="topicFilter">
+          <option value="all">
+            All topics
+          </option>
+          <option value="ai">
+            AI
+          </option>
+          <option value="web-archives">
+            Web archives
+          </option>
+          <option value="migration">
+            Migration
+          </option>
+          <option value="digital-humanities">
+            Digital humanities
+          </option>
+          <option value="academic-writing">
+            Academic writing
+          </option>
+          <option value="conferences">
+            Conferences
+          </option>
+          <option value="introduction">
+            Introduction
+          </option>
+        </select>
+      </div>
+      <button type="reset" class="text-button" id="resetFilters">
+        Reset filters
+      </button>
+    </form>
+    <p class="results-count" id="blogResultsCount" role="status">
+      11 blog posts
+    </p>
+    <div class="blogs-grid" id="blogsGrid">
+      {{blogs}}
+    </div>
+    <div id="noBlogResults" class="empty-state" hidden>
+      <h2>
+        No posts match these filters.
+      </h2>
+      <p>
+        Choose another source, year, or topic to keep exploring.
+      </p>
+      <button type="button" class="button button-secondary" data-reset-blogs>
+        Reset filters
+      </button>
+    </div>
+  </div>
+</main>

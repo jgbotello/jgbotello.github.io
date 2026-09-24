@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{description}}">
+    <meta name="theme-color" content="#f7f8f4">
+    <title>
+      {{title}}
+    </title>
+    <link rel="icon" type="image/svg+xml" href="icons/initials-JG.svg">
+    <link rel="stylesheet" href="styles.css?v=footer-icons">
+    <script src="scripts.js" defer>
+    </script>
+  </head>
+  <body class="page-{{page}}">
+    <a class="skip-link" href="#main">
+      Skip to content
+    </a>
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="index.html">
+          Jhon G. Botello
+          <span>
+            AI, M&amp;S and Digital libraries
+          </span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainNav" hidden>
+          <span>
+            Menu
+          </span>
+          <span class="menu-symbol" aria-hidden="true">
+            ☰
+          </span>
+        </button>
+        <nav class="site-nav" id="mainNav" aria-label="Main navigation">
+          <ul>
+            {{navigation}}
+          </ul>
+        </nav>
+      </div>
+    </header>
+    {{body}}
+    <footer class="site-footer">
+      <div class="container footer-bottom">
+        <p>© 2026 Jhon G. Botello</p>
+        <a class="footer-back-top" href="#main">Back to top ↑</a>
+        <nav class="footer-links" aria-label="Social and academic profiles">
+          <a href="https://scholar.google.com/citations?user=x6VeC7sAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">{{icon_google_scholar}}<span>Google Scholar</span></a>
+          <a href="https://github.com/jgbotello" target="_blank" rel="noopener noreferrer">{{icon_github}}<span>GitHub</span></a>
+          <a href="https://www.linkedin.com/in/jgbotello/" target="_blank" rel="noopener noreferrer">{{icon_linkedin}}<span>LinkedIn</span></a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

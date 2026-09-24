@@ -1,0 +1,174 @@
+[
+  {
+    "id": "paper-1",
+    "year": "in-press",
+    "type": "journal",
+    "title": "Reconstructing Migratory Movements from Ottoman Census Registers: An AI Driven Approach",
+    "authors": "Botello, J. G., Sümertaş, F. M., Frydenlund, Padilla, J. J., Philliou, C., Frydenlund, E., Anderson, A.",
+    "venue": "Journal of Digital History",
+    "url": "",
+    "image": "images/blogs/wsdl_berkeley.png",
+    "topics": [
+      "ai",
+      "society"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "paper-2",
+    "year": "in-press",
+    "type": "conference",
+    "title": "How can AI provide a layer for composability?",
+    "authors": "Botello, J. G., Padilla, J. J., Zamponi, V., & Frydenlund, E.",
+    "venue": "2026 Modeling and Simulation for Autonomous Systems Conference",
+    "url": "",
+    "image": "images/editorial/model.svg",
+    "topics": [
+      "ai",
+      "simulation"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "paper-3",
+    "year": "2026",
+    "type": "conference",
+    "title": "How can AI find my model? An experimental study of data formats, embeddings and retrieval strategies",
+    "authors": "Botello, J. G., Padilla, J. J., Frydenlund, E., Krzysztof Rechowicz, & Eric Weisel",
+    "venue": "2026 Winter Simulation Conference",
+    "url": "https://arxiv.org/abs/2606.30846",
+    "image": "images/publications/paper-3-academic-cover.png",
+    "topics": [
+      "ai",
+      "simulation"
+    ],
+    "summary": "",
+    "pdf": "https://arxiv.org/pdf/2606.30846",
+    "figure": {
+      "number": 1,
+      "page": 5,
+      "alt": "Experimental pipeline for simulation model discovery",
+      "source_url": "https://arxiv.org/pdf/2606.30846"
+    },
+    "cover_alt": "Illustrated method: document formats, embeddings, and query-based model retrieval",
+    "public_pdf": "https://arxiv.org/pdf/2606.30846"
+  },
+  {
+    "id": "paper-4",
+    "year": "2025",
+    "type": "conference",
+    "title": "Toward Automating System Dynamics Modeling: Evaluating LLMs in the Transition from Narratives to Formal Structures",
+    "authors": "Botello, J. G., Llinas, B., Padilla, J. J., & Frydenlund, E.",
+    "venue": "Proceedings of the 2025 Winter Simulation Conference",
+    "url": "https://ieeexplore.ieee.org/abstract/document/11338856",
+    "image": "images/publications/paper-4-academic-cover.png",
+    "topics": [
+      "ai",
+      "simulation"
+    ],
+    "summary": "This paper investigates how large language models (LLMs) can support the transformation of narrative descriptions into system archetypes. We tested prompting strategies including zero-shot and guided reasoning approaches, to assess LLM's ability to identify key variables, causal relationships, and feedback structures.",
+    "figure": {
+      "number": 1,
+      "page": 4,
+      "alt": "Workflow for evaluating system dynamics archetypes generated from narratives",
+      "source_url": "https://www.informs-sim.org/wsc25papers/con265.pdf"
+    },
+    "cover_alt": "Illustrated method: narrative input, LLM processing, and a system dynamics feedback loop",
+    "public_pdf": "https://www.informs-sim.org/wsc25papers/con265.pdf"
+  },
+  {
+    "id": "paper-5",
+    "year": "2024",
+    "type": "conference",
+    "title": "Exploring Large Language Models for Analysing Changes in Web Archive Content: A Retrieval-Augmented Generation Approach",
+    "authors": "Botello, J. G., Frew, L., Padilla, J. J., & Weigle, M. C.",
+    "venue": "2024 IEEE International Conference on Big Data (BigData) , IEEE",
+    "url": "https://ieeexplore.ieee.org/abstract/document/10826069",
+    "image": "images/publications/paper-5-academic-cover.png",
+    "topics": [
+      "ai",
+      "web"
+    ],
+    "summary": "This work explores how GPT-4o can support the detection of semantic changes in archived web pages.",
+    "figure": {
+      "number": 3,
+      "page": 5,
+      "alt": "WARC-GPT architecture using archived web pages as a knowledge source",
+      "source_url": "https://ai-collaboratory.net/wp-content/uploads/2024/11/S01205_7058.pdf"
+    },
+    "cover_alt": "Illustrated method: comparing 2016 and 2020 web snapshots with WARC-GPT",
+    "public_pdf": "https://ai-collaboratory.net/wp-content/uploads/2024/11/S01205_7058.pdf"
+  },
+  {
+    "id": "paper-6",
+    "year": "2024",
+    "type": "conference",
+    "title": "Enhancing GPT-3.5's Proficiency in NetLogo Through Few-Shot Prompting and Retrieval-Augmented Generation",
+    "authors": "Martínez, J., Llinas, B., Botello, J. G., Padilla, J. J., & Frydenlund, E.",
+    "venue": "2024 Winter Simulation Conference (WSC) , IEEE",
+    "url": "https://ieeexplore.ieee.org/abstract/document/10838967",
+    "image": "images/publications/paper-6-figure-4.png",
+    "topics": [
+      "ai",
+      "simulation"
+    ],
+    "summary": "This paper studies how few-shot learning and retrieval-augmented generation improve GPT-3.5's ability to generate NetLogo code for agent-based models.",
+    "figure": {
+      "number": 4,
+      "page": 7,
+      "alt": "Retrieval-augmented generation framework for NetLogo",
+      "source_url": "https://informs-sim.org/wsc24papers/con303.pdf"
+    },
+    "public_pdf": "https://informs-sim.org/wsc24papers/con303.pdf"
+  },
+  {
+    "id": "paper-7",
+    "year": "2024",
+    "type": "journal",
+    "title": "Adapting and Validating a Survey to Assess Host Communities Support for Migration",
+    "authors": "Botello, J. G., Palacio, K., Frydenlund, E., Llinás, H., & Padilla, J. J.",
+    "venue": "Social Indicators Research , 174(2), 697–720",
+    "url": "https://link.springer.com/article/10.1007/s11205-024-03397-6",
+    "image": "images/publications/paper-7-figure-2.png",
+    "topics": [
+      "society"
+    ],
+    "summary": "A validated survey tool for measuring community support for migration during rapid and sudden arrivals of people.",
+    "figure": {
+      "number": 2,
+      "page": 14,
+      "alt": "Measurement Model 2 with three first-order factors and one second-order factor",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s11205-024-03397-6.pdf"
+    },
+    "public_pdf": "https://link.springer.com/content/pdf/10.1007/s11205-024-03397-6.pdf"
+  },
+  {
+    "id": "paper-8",
+    "year": "2023",
+    "type": "conference",
+    "title": "BPM for Mutual Aid Management in Industrial Emergency Response",
+    "authors": "Pachón-Carrascal, K., Botello, J. G., García-Llinás, G., Viloria-Núñez, C., Romero-Rodríguez, D., Maturana, A. Y., & Salgar, K. S. P.",
+    "venue": "2023 IEEE International Humanitarian Technology Conference (IHTC) , IEEE",
+    "url": "https://ieeexplore.ieee.org/abstract/document/10508837",
+    "image": "images/editorial/model.svg",
+    "topics": [
+      "simulation"
+    ],
+    "summary": ""
+  },
+  {
+    "id": "paper-9",
+    "year": "2024",
+    "type": "non-peer-reviewed",
+    "title": "AI-Driven App for Accessibility in Education: Converting Scanned Documents to Readable Text for Students with Low Vision",
+    "authors": "Llinas, B., Botello, J. G., Martínez, J., McLeod, M., Miller-Felton, M., Frydenlund, E., & Padilla, J. J.",
+    "venue": "Conference contribution (not peer reviewed)",
+    "url": "",
+    "image": "images/editorial/access.svg",
+    "topics": [
+      "ai",
+      "society"
+    ],
+    "summary": ""
+  }
+]
